@@ -1,6 +1,5 @@
 "use strict";
 
-function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 !function (e, f, u, i) {
   if (!document.getElementById(i)) {
     e.src = u;
@@ -8,9 +7,9 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
     f.parentNode.insertBefore(e, f);
   }
 }(document.createElement('script'), document.getElementsByTagName('script')[0], 'https://fstatic.netpub.media/extra/cmp/cmp-gdpr.js?v=1', 'netpub-gdpr');
-(function () {
+(() => {
   var t = {
-      "gfdea69b": function gfdea69b(t, e, n) {
+      "gfdea69b": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -24,7 +23,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("yacf2d"));
         e.default = r.default;
       },
-      "o7b99ff": function o7b99ff(t, e, n) {
+      "o7b99ff": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -99,7 +98,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           "z-index": "2147483647"
         };
       },
-      "s63a663": function s63a663(t, e, n) {
+      "s63a663": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -119,7 +118,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           c = i(n("ueaf16d92")),
           d = i(n("p18d8fc"));
         e.default = {
-          getInstance: function getInstance(t, e, n) {
+          getInstance: function (t, e, n) {
             switch (t) {
               case "adx":
                 return new r.default(t, e, n);
@@ -144,7 +143,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
         };
       },
-      "kbdd35": function kbdd35(t, e, n) {
+      "kbdd35": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -161,7 +160,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return !(!e || !e.getBoundingClientRect) && e.getBoundingClientRect().height >= t.minHeight;
         };
       },
-      "x78b5554": function x78b5554(t, e) {
+      "x78b5554": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -171,22 +170,22 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return null !== document.querySelector(t.value);
         };
       },
-      "f2c6acc9": function f2c6acc9() {
+      "f2c6acc9": () => {
         !function () {
           "use strict";
 
           !function () {
             if (void 0 === window.Reflect || void 0 === window.customElements || window.customElements.polyfillWrapFlushCallback) return;
-            var t = HTMLElement;
+            const t = HTMLElement;
             window.HTMLElement = {
-              HTMLElement: function HTMLElement() {
+              HTMLElement: function () {
                 return Reflect.construct(t, [], this.constructor);
               }
             }.HTMLElement, HTMLElement.prototype = t.prototype, HTMLElement.prototype.constructor = HTMLElement, Object.setPrototypeOf(HTMLElement, t);
           }();
         }();
       },
-      "j891d05": function j891d05(t, e) {
+      "j891d05": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -209,7 +208,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           requestOniOS: !1
         };
       },
-      "x986692": function x986692(t, e, n) {
+      "x986692": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -223,7 +222,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("k5dff71"));
         e.default = r.default;
       },
-      "edf43cfc": function edf43cfc(t, e, n) {
+      "edf43cfc": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -408,20 +407,20 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = p;
       },
-      "g08899d1c": function g08899d1c(t, e) {
+      "g08899d1c": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
           value: !0
         }), e.AUDIO_PLAYER_SCRIPT_URL = void 0, e.AUDIO_PLAYER_SCRIPT_URL = "//cdn.cronos.pw/cdn/audio/v1/current.js";
       },
-      "d51328f3": function d51328f3(t, e, n) {
+      "d51328f3": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -435,7 +434,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           value: !0
         }), r(n("u8837"), e), r(n("beccc97"), e), r(n("u2abb68"), e), r(n("h3baf946"), e);
       },
-      "i54cdfc38": function i54cdfc38(t, e) {
+      "i54cdfc38": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -476,13 +475,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }();
         e.default = n;
       },
-      "oa98d5f6b": function oa98d5f6b(t, e, n) {
+      "oa98d5f6b": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -558,10 +557,10 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 var t;
                 null === (t = i.iframe) || void 0 === t || t.remove(), i.adUnitContainer.innerHTML = "", i.iframe = h.createElement(u.PREBID_IFRAME), i.adUnitContainer.insertAdjacentElement("beforeend", i.iframe);
               }, this.parseMacros = function (t) {
-                for (var _e2 in t) {
-                  for (var _n2 in t[_e2].params) {
-                    if (t[_e2].params[_n2] && "string" == typeof t[_e2].params[_n2]) {
-                      t[_e2].params[_n2] = t[_e2].params[_n2].replace(/%ADUNITID%/g, i.adUnitContainer.id);
+                for (let e in t) {
+                  for (let n in t[e].params) {
+                    if (t[e].params[n] && "string" == typeof t[e].params[n]) {
+                      t[e].params[n] = t[e].params[n].replace(/%ADUNITID%/g, i.adUnitContainer.id);
                     }
                   }
                 }
@@ -636,7 +635,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   e.addAdUnits(i);
                   e.requestBids({
                     timeout: o,
-                    bidsBackHandler: function bidsBackHandler() {
+                    bidsBackHandler: function () {
                       var i = e.getBidResponsesForAdUnitCode(n).bids.filter(t.isBidAllowed);
                       if (i.length) {
                         var o = t.findTheBestBids(i, a);
@@ -651,13 +650,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = p;
       },
-      "h662b195e": function h662b195e(t, e, n) {
+      "h662b195e": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -710,7 +709,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               o,
               a = {
                 label: 0,
-                sent: function sent() {
+                sent: function () {
                   if (1 & r[0]) throw r[1];
                   return r[1];
                 },
@@ -838,7 +837,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   Array.isArray(u) && (a.video.playerSize = u);
                   var c = s >= 0 ? s : 0;
                   d.default.sendRequest({
-                    cb: function cb(t) {
+                    cb: function (t) {
                       return e(t);
                     },
                     timeout: 1e3,
@@ -853,7 +852,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 });
               }, this.areTagsMapped = function () {
                 return n.tag.every(function (t) {
-                  return "object" != _typeof(null == t ? void 0 : t.url);
+                  return "object" != typeof (null == t ? void 0 : t.url);
                 });
               }, this.onAdStartedCallback = function () {
                 n.google && n.adjustToGoogle();
@@ -1008,7 +1007,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = y;
       },
-      "gabb5e2c": function gabb5e2c(t, e, n) {
+      "gabb5e2c": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -1022,7 +1021,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("t1ce0f4"));
         e.default = r.default;
       },
-      "l1484": function l1484(t, e, n) {
+      "l1484": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -1039,7 +1038,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             n = t.count,
             i = t.type,
             o = t.childrenCount,
-            a = function a(t) {
+            a = function (t) {
               switch (i) {
                 case "greater":
                   return t > o;
@@ -1075,7 +1074,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return !0;
         };
       },
-      "q754c34ac": function q754c34ac(t, e, n) {
+      "q754c34ac": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -1089,7 +1088,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("c4c8b1c"));
         e.default = r.default;
       },
-      "t1ce0f4": function t1ce0f4(t, e, n) {
+      "t1ce0f4": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -1155,7 +1154,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = l;
       },
-      "md323": function md323(t, e, n) {
+      "md323": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -1185,16 +1184,16 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   }
                 }), n.appendChild(t.scriptGoogle));
               }, this.appendPrebidDeliveryScript = function () {
-                var n = document.currentScript || document.body || document.head || document.querySelector("body") || document.querySelector("head") || document.querySelector("div");
+                const n = document.currentScript || document.body || document.head || document.querySelector("body") || document.querySelector("head") || document.querySelector("div");
                 if (n && !window.document.querySelector('script[src="' + s.PBD_SRC + '"]')) {
-                  var _e3 = a.createElement({
+                  const e = a.createElement({
                     name: "script",
                     attributes: {
                       src: s.PBD_SRC
                     }
                   });
-                  n.appendChild(_e3);
-                  _e3.remove();
+                  n.appendChild(e);
+                  e.remove();
                 }
               }, this.ssp = r.engineConfig.ssp.map(function (t) {
                 return t.toLowerCase();
@@ -1224,14 +1223,14 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = l;
       },
-      "u2abb68": function u2abb68(t, e) {
+      "u2abb68": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
           value: !0
         }), e.OTHER_ADS_SELECTORS = void 0, e.OTHER_ADS_SELECTORS = [".adsbygoogle", "div[id^=google_ads]", "[id^=div-gpt-ad]", "[id^=sas_iframe]", "[id^=aswift]", "[id^=yandex_]"];
       },
-      "q403ddc": function q403ddc(t, e, n) {
+      "q403ddc": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -1245,13 +1244,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("df4e545c"));
         e.default = r.default;
       },
-      "b0f2c": function b0f2c(t, e, n) {
+      "b0f2c": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -1272,7 +1271,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var a = o(n("ee008903"));
         e.default = a.default, r(n("naa338d74"), e);
       },
-      "beccc97": function beccc97(t, e) {
+      "beccc97": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -1288,7 +1287,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
         };
       },
-      "s988e": function s988e(t, e, n) {
+      "s988e": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -1335,13 +1334,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = s;
       },
-      "dcf406": function dcf406(t, e, n) {
+      "dcf406": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -1441,11 +1440,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 case "utm_fields":
                   var e = {},
                     n = {};
-                  return window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (n, i, r) {
-                    return e[i] = r;
-                  }), ["utm_campaign", "utm_source", "utm_medium", "utm_term", "utm_content"].forEach(function (i) {
-                    return n[i] = void 0 === e[i] ? "-" : e[i];
-                  }), n;
+                  return window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, (n, i, r) => e[i] = r), ["utm_campaign", "utm_source", "utm_medium", "utm_term", "utm_content"].forEach(i => n[i] = void 0 === e[i] ? "-" : e[i]), n;
                 default:
                   return {};
               }
@@ -1454,25 +1449,19 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 e = this.googletag,
                 n = void 0 !== t.refresh && void 0 !== t.refresh.define && void 0 !== t.refresh.tick ? t.refresh.code : t.code;
               e.cmd.push(function () {
-                e.pubads().setForceSafeFrame(t.safeframe), t.googletag.enableServices(), t.slot = t.googletag.defineSlot(n, t.sizes, t.adUnitContainer.id), t.googleSlot = t.slot.addService(t.googletag.pubads()), t.extra && t.extra.set.forEach(function (i) {
+                e.pubads().setForceSafeFrame(t.safeframe), t.googletag.enableServices(), t.slot = t.googletag.defineSlot(n, t.sizes, t.adUnitContainer.id), t.googleSlot = t.slot.addService(t.googletag.pubads()), t.extra && t.extra.set.forEach(i => {
                   var r = i.value ? i.value : t.extraParam(i);
-                  "object" == _typeof(r) ? Object.entries(r).forEach(function (o) {
-                    return t.googleSlot.set(o[0], o[1]);
-                  }) : t.googleSlot.set(i.name, r);
-                }), t.extra && t.extra.targeting && t.extra.targeting.static.forEach(function (i) {
+                  "object" == typeof r ? Object.entries(r).forEach(o => t.googleSlot.set(o[0], o[1])) : t.googleSlot.set(i.name, r);
+                }), t.extra && t.extra.targeting && t.extra.targeting.static.forEach(i => {
                   var r = i.value ? i.value : t.extraParam(i);
-                  "object" == _typeof(r) ? Object.entries(r).forEach(function (o) {
-                    return t.googleSlot.setTargeting(o[0], o[1]);
-                  }) : t.googleSlot.setTargeting(i.name, r);
-                }), t.params && t.params.extra && t.params.extra.targeting && t.params.extra.targeting.dynamic && Object.entries(t.params.extra.targeting.dynamic).forEach(function (i) {
-                  return t.googleSlot.setTargeting(i[0], i[1]);
-                }), e.enableServices();
+                  "object" == typeof r ? Object.entries(r).forEach(o => t.googleSlot.setTargeting(o[0], o[1])) : t.googleSlot.setTargeting(i.name, r);
+                }), t.params && t.params.extra && t.params.extra.targeting && t.params.extra.targeting.dynamic && Object.entries(t.params.extra.targeting.dynamic).forEach(i => t.googleSlot.setTargeting(i[0], i[1])), e.enableServices();
               });
             }, t;
           }();
         e.default = l;
       },
-      "h91fcd76": function h91fcd76(t, e, n) {
+      "h91fcd76": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -1486,7 +1475,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("r2f6b42b"));
         e.default = r.default;
       },
-      "k5c33e33": function k5c33e33(t, e, n) {
+      "k5c33e33": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -1572,7 +1561,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = s;
       },
-      "yf1175546": function yf1175546(t, e, n) {
+      "yf1175546": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -1586,7 +1575,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("k26fc5"));
         e.default = r.default;
       },
-      "i5affa5": function i5affa5(t, e, n) {
+      "i5affa5": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -1627,13 +1616,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = a;
       },
-      "q8b49": function q8b49(t, e, n) {
+      "q8b49": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -1647,7 +1636,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           value: !0
         }), r(n("l1484"), e), r(n("x78b5554"), e), r(n("h247a"), e), r(n("kbdd35"), e), r(n("f1f4435"), e), r(n("f5e0c1ec7"), e), r(n("qda5cc"), e), r(n("y00f02"), e), r(n("f80b5c"), e), r(n("bd82d78"), e), r(n("d43ebde"), e), r(n("z43809"), e), r(n("v5f507"), e), r(n("q7644d2"), e), r(n("w9969"), e), r(n("c09746"), e), r(n("a7f18d"), e);
       },
-      "f80b5c": function f80b5c(t, e) {
+      "f80b5c": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -1658,7 +1647,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return e === t.value;
         };
       },
-      "nfb12a1e": function nfb12a1e(t, e) {
+      "nfb12a1e": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -1667,7 +1656,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var n = new Date();
         e.DATE_FINGERPRINT = +n.getUTCFullYear() + n.getUTCMonth() + n.getUTCDate() + n.getUTCHours(), e.IFRAME_STRUCTURE = "<html><body></body></html>";
       },
-      "e03dd2d": function e03dd2d(t, e) {
+      "e03dd2d": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -1691,7 +1680,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           sticky: 3
         }), e.CONTAINER_FOR_VEEDMO_CLASSES = ["container-for-veedmo"];
       },
-      "x22e00": function x22e00(t, e) {
+      "x22e00": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -1728,7 +1717,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           desktop: e.DESKTOP_RANGE
         };
       },
-      "red882": function red882(t, e, n) {
+      "red882": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -1872,7 +1861,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = d;
       },
-      "ia8202": function ia8202(t, e) {
+      "ia8202": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -1906,12 +1895,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }();
         e.default = n;
       },
-      "qba2842": function qba2842(t, e, n) {
+      "qba2842": function (t, e, n) {
         "use strict";
 
-        var _i2,
-          r = this && this.__extends || (_i2 = function i(t, e) {
-            return (_i2 = Object.setPrototypeOf || {
+        var i,
+          r = this && this.__extends || (i = function (t, e) {
+            return (i = Object.setPrototypeOf || {
               __proto__: []
             } instanceof Array && function (t, e) {
               t.__proto__ = e;
@@ -1923,7 +1912,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             function n() {
               this.constructor = t;
             }
-            _i2(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
+            i(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
           });
         Object.defineProperty(e, "__esModule", {
           value: !0
@@ -1940,14 +1929,14 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }(HTMLElement);
         e.default = a;
       },
-      "te7d32": function te7d32(t, e) {
+      "te7d32": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
           value: !0
         }), e.BRANDING_WIDTH = e.SF_MARGIN = void 0, e.SF_MARGIN = 30, e.BRANDING_WIDTH = 105;
       },
-      "ha77d1a3": function ha77d1a3(t, e, n) {
+      "ha77d1a3": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -2013,7 +2002,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           callback: i.random
         }];
       },
-      "lb1ed": function lb1ed(t, e, n) {
+      "lb1ed": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -2027,7 +2016,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("i5affa5"));
         e.default = r.default;
       },
-      "n5ea2": function n5ea2(t, e, n) {
+      "n5ea2": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -2041,7 +2030,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("s478b3"));
         e.default = r.default;
       },
-      "ed78c2f1": function ed78c2f1(t, e, n) {
+      "ed78c2f1": function (t, e, n) {
         "use strict";
 
         var i = this && this.__rest || function (t, e) {
@@ -2105,48 +2094,48 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                     storageAllowed: !0
                   },
                   adagio: {
-                    bidCpmAdjustment: function bidCpmAdjustment(a) {
+                    bidCpmAdjustment: function (a) {
                       return a;
                     }
                   },
                   amx: {
                     storageAllowed: true,
-                    bidCpmAdjustment: function bidCpmAdjustment(a) {
+                    bidCpmAdjustment: function (a) {
                       return a;
                     }
                   },
                   adtelligent: {
-                    bidCpmAdjustment: function bidCpmAdjustment(a) {
+                    bidCpmAdjustment: function (a) {
                       return a;
                     }
                   },
                   criteo: {
-                    bidCpmAdjustment: function bidCpmAdjustment(a) {
+                    bidCpmAdjustment: function (a) {
                       return .01 > a ? 0 : a;
                     }
                   },
                   onetag: {
-                    bidCpmAdjustment: function bidCpmAdjustment(a) {
+                    bidCpmAdjustment: function (a) {
                       return .01 > a ? 0 : .87 * a;
                     }
                   },
                   richaudience: {
-                    bidCpmAdjustment: function bidCpmAdjustment(a) {
+                    bidCpmAdjustment: function (a) {
                       return .01 > a ? 0 : a;
                     }
                   },
                   rubicon: {
-                    bidCpmAdjustment: function bidCpmAdjustment(a) {
+                    bidCpmAdjustment: function (a) {
                       return .01 > a ? 0 : .97 * a;
                     }
                   },
                   smartadserver: {
-                    bidCpmAdjustment: function bidCpmAdjustment(a) {
+                    bidCpmAdjustment: function (a) {
                       return .01 > a ? 0 : .6 * a;
                     }
                   },
                   smilewanted: {
-                    bidCpmAdjustment: function bidCpmAdjustment(a) {
+                    bidCpmAdjustment: function (a) {
                       return .01 > a ? 0 : .8 * a;
                     }
                   }
@@ -2220,12 +2209,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = s;
       },
-      "rbb4aed": function rbb4aed(t, e, n) {
+      "rbb4aed": function (t, e, n) {
         "use strict";
 
-        var _i3,
-          r = this && this.__extends || (_i3 = function i(t, e) {
-            return (_i3 = Object.setPrototypeOf || {
+        var i,
+          r = this && this.__extends || (i = function (t, e) {
+            return (i = Object.setPrototypeOf || {
               __proto__: []
             } instanceof Array && function (t, e) {
               t.__proto__ = e;
@@ -2237,7 +2226,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             function n() {
               this.constructor = t;
             }
-            _i3(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
+            i(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
           });
         Object.defineProperty(e, "__esModule", {
           value: !0
@@ -2260,7 +2249,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }(o.MgidBase);
         e.default = s;
       },
-      "na0039": function na0039(t, e, n) {
+      "na0039": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -2274,7 +2263,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("a726fce2"));
         e.default = r.default;
       },
-      "g16fc052": function g16fc052(t, e, n) {
+      "g16fc052": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -2288,7 +2277,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("t91346384"));
         e.default = r.default;
       },
-      "k089eb05": function k089eb05(t, e, n) {
+      "k089eb05": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -2302,7 +2291,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("red882"));
         e.default = r.default;
       },
-      "m0f6ce70d": function m0f6ce70d(t, e) {
+      "m0f6ce70d": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -3311,7 +3300,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
         };
       },
-      "r17200": function r17200(t, e, n) {
+      "r17200": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -3325,7 +3314,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("md323"));
         e.default = r.default;
       },
-      "p0d4e2": function p0d4e2(t, e, n) {
+      "p0d4e2": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -3339,7 +3328,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("l3b58"));
         e.default = r.default;
       },
-      "v5f507": function v5f507(t, e) {
+      "v5f507": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -3350,7 +3339,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return e.endsWith(t.value);
         };
       },
-      "h247a": function h247a(t, e, n) {
+      "h247a": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -3373,7 +3362,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return !(!e || !n) && n.getBoundingClientRect().height - e.getBoundingClientRect().height <= t.minHeight;
         };
       },
-      "a2213": function a2213(t, e) {
+      "a2213": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -3384,7 +3373,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           subtree: !0
         };
       },
-      "cb36c5": function cb36c5(t, e, n) {
+      "cb36c5": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -3482,12 +3471,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = u;
       },
-      "y67272797": function y67272797() {
+      "y67272797": () => {
         !function () {
           "use strict";
 
-          if ("object" == (typeof window === "undefined" ? "undefined" : _typeof(window))) if ("IntersectionObserver" in window && "IntersectionObserverEntry" in window && "intersectionRatio" in window.IntersectionObserverEntry.prototype) "isIntersecting" in window.IntersectionObserverEntry.prototype || Object.defineProperty(window.IntersectionObserverEntry.prototype, "isIntersecting", {
-            get: function get() {
+          if ("object" == typeof window) if ("IntersectionObserver" in window && "IntersectionObserverEntry" in window && "intersectionRatio" in window.IntersectionObserverEntry.prototype) "isIntersecting" in window.IntersectionObserverEntry.prototype || Object.defineProperty(window.IntersectionObserverEntry.prototype, "isIntersecting", {
+            get: function () {
               return this.intersectionRatio > 0;
             }
           });else {
@@ -3499,8 +3488,8 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               n = null,
               i = null;
             a.prototype.THROTTLE_TIMEOUT = 100, a.prototype.POLL_INTERVAL = null, a.prototype.USE_MUTATION_OBSERVER = !0, a._setupCrossOriginUpdater = function () {
-              return n || (n = function n(t, _n3) {
-                i = t && _n3 ? d(t, _n3) : {
+              return n || (n = function (t, n) {
+                i = t && n ? d(t, n) : {
                   top: 0,
                   bottom: 0,
                   left: 0,
@@ -3792,13 +3781,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
         }();
       },
-      "e31056b4e": function e31056b4e(t, e, n) {
+      "e31056b4e": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -3812,7 +3801,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           value: !0
         }), r(n("f9360c"), e), r(n("kc6579"), e);
       },
-      "r2f6b42b": function r2f6b42b(t, e, n) {
+      "r2f6b42b": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -3828,7 +3817,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           a = i(n("i54cdfc38")),
           s = i(n("q1414a9"));
         e.default = {
-          getInstance: function getInstance(t) {
+          getInstance: function (t) {
             switch (t.name) {
               case r.DATE:
                 return new o.default(t.params).isEntityRunnable();
@@ -3846,7 +3835,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
         };
       },
-      "i8b8ce": function i8b8ce(t, e) {
+      "i8b8ce": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -3859,7 +3848,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           threshold: 0
         };
       },
-      "seab4f0d": function seab4f0d(t, e, n) {
+      "seab4f0d": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -3917,7 +3906,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.MgidBase = s;
       },
-      "g72e52": function g72e52(t, e, n) {
+      "g72e52": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -3942,7 +3931,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           m = i(n("s4721")),
           v = i(n("a9bcc2")),
           y = i(n("c6b9e")),
-          g = function g() {
+          g = function () {
             this.getInstance = function (t, e) {
               switch (t) {
                 case "Sticky":
@@ -3982,7 +3971,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           };
         e.default = new g();
       },
-      "c09746": function c09746(t, e) {
+      "c09746": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -3993,7 +3982,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return e.startsWith(t.value);
         };
       },
-      "y00f02": function y00f02(t, e) {
+      "y00f02": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -4004,7 +3993,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return e.includes(t.value);
         };
       },
-      "yd6d885e": function yd6d885e(t, e, n) {
+      "yd6d885e": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -4040,7 +4029,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = r;
       },
-      "x682c71d": function x682c71d(t, e, n) {
+      "x682c71d": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -4094,13 +4083,11 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = u;
       },
-      "t91346384": function t91346384(t, e, n) {
+      "t91346384": (t, e, n) => {
         "use strict";
 
         n.r(e), n.d(e, {
-          default: function _default() {
-            return p;
-          }
+          default: () => p
         });
         var i = n("qab7af7f0"),
           r = n.n(i),
@@ -4118,7 +4105,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             i.enumerable = i.enumerable || !1, i.configurable = !0, "value" in i && (i.writable = !0), Object.defineProperty(t, i.key, i);
           }
         }
-        var p = function () {
+        const p = function () {
           function t(e) {
             !function (t, e) {
               if (!(t instanceof e)) throw new TypeError("Cannot call a class as a function");
@@ -4127,12 +4114,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           var e, n, i;
           return e = t, (n = [{
             key: "kill",
-            value: function value() {
+            value: function () {
               this.isKilled = !0, h.P ? clearInterval(this.fillerHeightCheck) : this.mutationObserver && (this.mutationObserver.disconnect(), this.mutationObserver = null), this.updateFloatPosition && window.removeEventListener("scroll", this.updateFloatPosition), this.filler && this.filler.remove(), this.float && this.float.remove();
             }
           }, {
             key: "setup",
-            value: function value() {
+            value: function () {
               var t = this,
                 e = this.config.params,
                 n = e.float,
@@ -4184,7 +4171,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                     }
                   }
                 }, window.addEventListener("scroll", this.updateFloatPosition);
-                var v = function v() {
+                var v = function () {
                   if (!t.isKilled) {
                     var e = Math.floor(t.float.clientHeight);
                     t.floatHeight = e, t.filler.style.height = "".concat(parseInt("".concat(t.floatHeight), 10), "px"), t.updateFloatPosition();
@@ -4200,7 +4187,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }]) && f(e.prototype, n), i && f(e, i), t;
         }();
       },
-      "x772fe5bb": function x772fe5bb(t, e, n) {
+      "x772fe5bb": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -4214,12 +4201,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("cd80be6"));
         e.default = r.default;
       },
-      "n17e0001": function n17e0001(t, e, n) {
+      "n17e0001": function (t, e, n) {
         "use strict";
 
-        var _i4,
-          r = this && this.__extends || (_i4 = function i(t, e) {
-            return (_i4 = Object.setPrototypeOf || {
+        var i,
+          r = this && this.__extends || (i = function (t, e) {
+            return (i = Object.setPrototypeOf || {
               __proto__: []
             } instanceof Array && function (t, e) {
               t.__proto__ = e;
@@ -4231,7 +4218,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             function n() {
               this.constructor = t;
             }
-            _i4(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
+            i(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
           }),
           o = this && this.__read || function (t, e) {
             var n = "function" == typeof Symbol && t[Symbol.iterator];
@@ -4313,7 +4300,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }(u.default);
         e.default = h;
       },
-      "k26fc5": function k26fc5(t, e) {
+      "k26fc5": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -4324,7 +4311,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             this.script = t, this.setPathName = this.script, this.setInitialState();
           }
           return Object.defineProperty(t.prototype, "setPathName", {
-            set: function set(t) {
+            set: function (t) {
               try {
                 this.pathName = new URL(t.src).pathname;
               } catch (t) {}
@@ -4334,16 +4321,16 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }), t.prototype.setInitialState = function () {
             window.__oa360ScriptsState = window.__oa360ScriptsState || {}, Object.prototype.hasOwnProperty.call(window.__oa360ScriptsState, this.pathName) || (window.__oa360ScriptsState[this.pathName] = !1);
           }, Object.defineProperty(t.prototype, "state", {
-            get: function get() {
+            get: function () {
               return !this.pathName && void 0 !== this.pathName || window.__oa360ScriptsState[this.pathName];
             },
-            set: function set(t) {
+            set: function (t) {
               window.__oa360ScriptsState[this.pathName] = t;
             },
             enumerable: !1,
             configurable: !0
           }), Object.defineProperty(t.prototype, "wasPreviouslyLoaded_101a7ec8eadd77d6fbca2a4c3c78f78d", {
-            get: function get() {
+            get: function () {
               return this.state;
             },
             enumerable: !1,
@@ -4352,7 +4339,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }();
         e.default = n;
       },
-      "y01aba3": function y01aba3(t, e) {
+      "y01aba3": function (t, e) {
         "use strict";
 
         var n = this && this.__read || function (t, e) {
@@ -4384,7 +4371,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         Object.defineProperty(e, "__esModule", {
           value: !0
         }), e.DOMElementAdded = void 0;
-        var r = function r(t, e, _r2) {
+        var r = function (t, e, r) {
           var o,
             a = e && document.querySelector(e),
             s = e && null !== (o = null == a ? void 0 : a.contentWindow.document) && void 0 !== o ? o : document;
@@ -4403,7 +4390,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 }
                 return !1;
               });
-            }(e, t, o, _r2);
+            }(e, t, o, r);
           }).observe(s, {
             attributes: !1,
             childList: !0,
@@ -4421,7 +4408,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           };
         };
       },
-      "q1414a9": function q1414a9(t, e, n) {
+      "q1414a9": function (t, e, n) {
         "use strict";
 
         var i = this && this.__read || function (t, e) {
@@ -4525,13 +4512,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = o;
       },
-      "ueaf16d92": function ueaf16d92(t, e, n) {
+      "ueaf16d92": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -4573,7 +4560,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   renderTo: i.id,
                   async: !0,
                   pageNumber: i.yandexStatIdCounter,
-                  onRender: function onRender() {
+                  onRender: function () {
                     return i.publishSoldInformation();
                   }
                 });
@@ -4606,7 +4593,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = d;
       },
-      "r023b80bc": function r023b80bc(t, e) {
+      "r023b80bc": function (t, e) {
         "use strict";
 
         var n = this && this.__read || function (t, e) {
@@ -4683,12 +4670,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }();
         e.default = i;
       },
-      "i315af7a1": function i315af7a1(t, e, n) {
+      "i315af7a1": function (t, e, n) {
         "use strict";
 
-        var _i5,
-          r = this && this.__extends || (_i5 = function i(t, e) {
-            return (_i5 = Object.setPrototypeOf || {
+        var i,
+          r = this && this.__extends || (i = function (t, e) {
+            return (i = Object.setPrototypeOf || {
               __proto__: []
             } instanceof Array && function (t, e) {
               t.__proto__ = e;
@@ -4700,7 +4687,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             function n() {
               this.constructor = t;
             }
-            _i5(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
+            i(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
           });
         Object.defineProperty(e, "__esModule", {
           value: !0
@@ -4717,7 +4704,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }(n("seab4f0d").MgidBase);
         e.default = o;
       },
-      "m8bd238": function m8bd238(t, e, n) {
+      "m8bd238": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -4731,14 +4718,14 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("cb36c5"));
         e.default = r.default;
       },
-      "g08a3062": function g08a3062(t, e) {
+      "g08a3062": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
           value: !0
         }), e.PATH = void 0, e.PATH = "";
       },
-      "w321e385a": function w321e385a(t, e, n) {
+      "w321e385a": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -4752,7 +4739,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("ia8202"));
         e.default = r.default;
       },
-      "e0e6cf": function e0e6cf(t, e) {
+      "e0e6cf": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -4763,7 +4750,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           subtree: !0
         };
       },
-      "qab7af7f0": function qab7af7f0(t, e, n) {
+      "qab7af7f0": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -4777,7 +4764,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("x1b7808cd"));
         e.default = r.default;
       },
-      "nf47c0": function nf47c0(t, e, n) {
+      "nf47c0": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -4808,7 +4795,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           _ = i(n("b29f34b")),
           b = i(n("o360b214")),
           E = i(n("n5ea2")),
-          S = function S() {
+          S = function () {
             this.getInstance = function (t, e) {
               switch (t) {
                 case "AdPlayer":
@@ -4858,7 +4845,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           };
         e.default = new S();
       },
-      "eae386470": function eae386470(t, e, n) {
+      "eae386470": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -4889,14 +4876,14 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = r;
       },
-      "h2c94": function h2c94(t, e) {
+      "h2c94": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
           value: !0
         }), e.OCCURRENCE = e.DATE = e.SESSION = e.RELATIVE = e.ABSOLUTE = void 0, e.ABSOLUTE = "absolute", e.RELATIVE = "relative", e.SESSION = "session", e.DATE = "date", e.OCCURRENCE = "occurrence";
       },
-      "kc6579": function kc6579(t, e, n) {
+      "kc6579": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -4927,7 +4914,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           });
         };
       },
-      "s478b3": function s478b3(t, e, n) {
+      "s478b3": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -4975,7 +4962,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = a;
       },
-      "jb32fd": function jb32fd(t, e, n) {
+      "jb32fd": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -4989,7 +4976,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("k5c33e33"));
         e.default = r.default;
       },
-      "b29f34b": function b29f34b(t, e, n) {
+      "b29f34b": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -5003,26 +4990,26 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("s988e"));
         e.default = r.default;
       },
-      "naa338d74": function naa338d74(t, e) {
+      "naa338d74": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
           value: !0
         }), e.REMOVE_BRANDING = e.AD_SOLD = void 0, e.AD_SOLD = "AD_SOLD", e.REMOVE_BRANDING = "REMOVE_BRANDING";
       },
-      "v3405": function v3405(t, e) {
+      "v3405": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
           value: !0
         }), e.YANDEX_SRC = e.GPT_SRC = e.PBD_SRC = e.ADX_LINK = e.ADX_LIB = void 0, e.ADX_LIB = "adsbygoogle.js", e.ADX_LINK = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", e.GPT_SRC = "https://securepubads.g.doubleclick.net/tag/js/gpt.js", e.PBD_SRC = "https://fstatic.netpub.media/extra/onair/extra?cb=" + Math.random(), e.YANDEX_SRC = "//an.yandex.ru/system/context.js";
       },
-      "d7936bd": function d7936bd(t, e) {
+      "d7936bd": (t, e) => {
         "use strict";
 
         e.I = void 0, e.I = 2e3;
       },
-      "r8367792c": function r8367792c(t, e, n) {
+      "r8367792c": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -5036,7 +5023,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("r023b80bc"));
         e.default = r.default;
       },
-      "l1254467e": function l1254467e(t, e, n) {
+      "l1254467e": function (t, e, n) {
         (function () {
           "use strict";
 
@@ -5057,7 +5044,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           };
           var r,
             o = function (t) {
-              t = ["object" == (typeof globalThis === "undefined" ? "undefined" : _typeof(globalThis)) && globalThis, t, "object" == (typeof window === "undefined" ? "undefined" : _typeof(window)) && window, "object" == (typeof self === "undefined" ? "undefined" : _typeof(self)) && self, "object" == _typeof(n.g) && n.g];
+              t = ["object" == typeof globalThis && globalThis, t, "object" == typeof window && window, "object" == typeof self && self, "object" == typeof n.g && n.g];
               for (var e = 0; e < t.length; ++e) {
                 var i = t[e];
                 if (i && i.Math == Math) return i;
@@ -5126,7 +5113,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               "function" == typeof a && "function" != typeof a.prototype[t] && i(a.prototype, t, {
                 configurable: !0,
                 writable: !0,
-                value: function value() {
+                value: function () {
                   return s(e(this));
                 }
               });
@@ -5266,7 +5253,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           function T(t, e) {
             try {
               if (e === t) throw new TypeError("A promise cannot be resolved with itself.");
-              if (e && ("object" == _typeof(e) || "function" == typeof e)) {
+              if (e && ("object" == typeof e || "function" == typeof e)) {
                 var n = e.then;
                 if (e instanceof C) return t.N = 3, t.I = e, void N(t);
                 if ("function" == typeof n) return void P(function (t, e) {
@@ -5306,7 +5293,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             }
           }
           function D(t) {
-            return t && "object" == _typeof(t) && t.constructor === C ? t : new C(function (e) {
+            return t && "object" == typeof t && t.constructor === C ? t : new C(function (e) {
               e(t);
             });
           }
@@ -5343,7 +5330,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               return new C(function (e, n) {
                 function i(t, a) {
                   try {
-                    if (a && ("object" == _typeof(a) || "function" == typeof a)) {
+                    if (a && ("object" == typeof a || "function" == typeof a)) {
                       var s = a.then;
                       if ("function" == typeof s) return void s.call(a, function (e) {
                         i(t, e);
@@ -5376,13 +5363,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               H.splice(0, t);
             }).observe(U, {
               characterData: !0
-            }), B = function B(t) {
+            }), B = function (t) {
               H.push(t), U.textContent = 0 < U.textContent.length ? "" : "a";
             };
           }
           !function (t, e) {
             if (!(e in t)) {
-              var i = _typeof(n.g) == _typeof(i) ? window : n.g,
+              var i = typeof n.g == typeof i ? window : n.g,
                 r = 0,
                 o = String(Math.random()),
                 a = "__ symbol@@" + o,
@@ -5398,7 +5385,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 v = m.hasOwnProperty,
                 y = m.propertyIsEnumerable,
                 g = m.toString,
-                _ = function _(t, e, n) {
+                _ = function (t, e, n) {
                   v.call(t, a) || h(t, a, {
                     enumerable: !1,
                     configurable: !1,
@@ -5406,29 +5393,29 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                     value: {}
                   }), t[a]["@@" + e] = n;
                 },
-                b = function b(t, e) {
+                b = function (t, e) {
                   var n = u(t);
                   return s(e).forEach(function (t) {
                     C.call(e, t) && P(n, t, e[t]);
                   }), n;
                 },
-                E = function E() {},
-                S = function S(t) {
+                E = function () {},
+                S = function (t) {
                   return t != a && !v.call(A, t);
                 },
-                w = function w(t) {
+                w = function (t) {
                   return t != a && v.call(A, t);
                 },
-                C = function C(t) {
+                C = function (t) {
                   var e = String(t);
                   return w(e) ? v.call(this, e) && !!this[a] && this[a]["@@" + e] : y.call(this, t);
                 },
-                O = function O(e) {
+                O = function (e) {
                   return h(m, e, {
                     enumerable: !1,
                     configurable: !0,
                     get: E,
-                    set: function set(t) {
+                    set: function (t) {
                       L(this, e, {
                         enumerable: !1,
                         configurable: !0,
@@ -5446,10 +5433,10 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 N = {
                   value: T
                 },
-                M = function M(t) {
+                M = function (t) {
                   return A[t];
                 },
-                P = function P(t, e, n) {
+                P = function (t, e, n) {
                   var i = String(e);
                   if (w(i)) {
                     if (e = L, n.enumerable) {
@@ -5460,7 +5447,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   } else h(t, e, n);
                   return t;
                 },
-                D = function D(t) {
+                D = function (t) {
                   return s(t).filter(w).map(M);
                 };
               p.value = P, h(t, "defineProperty", p), p.value = D, h(t, e, p), p.value = function (t) {
@@ -5486,7 +5473,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               }, h(m, "toString", p);
               try {
                 if (!0 !== u(h({}, "__ symbol:", {
-                  get: function get() {
+                  get: function () {
                     return h(this, "__ symbol:", {
                       value: !0
                     })["__ symbol:"];
@@ -5494,7 +5481,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 }))["__ symbol:"]) throw "IE11";
                 var L = h;
               } catch (t) {
-                L = function L(t, e, n) {
+                L = function (t, e, n) {
                   var i = l(m, e);
                   delete m[e], h(t, e, n), h(m, e, i);
                 };
@@ -5516,7 +5503,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               var e = 0,
                 n = this,
                 r = {
-                  next: function next() {
+                  next: function () {
                     var t = n.length <= e;
                     return t ? {
                       done: t
@@ -5533,7 +5520,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 r = 0,
                 o = n.length,
                 a = {
-                  next: function next() {
+                  next: function () {
                     var t = o <= r,
                       i = t ? "" : e(n.codePointAt(r));
                     return r += i.length, t ? {
@@ -5587,7 +5574,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             var G = Event.prototype.preventDefault;
             Event.prototype.preventDefault = function () {
               this.cancelable && (G.call(this), Object.defineProperty(this, "defaultPrevented", {
-                get: function get() {
+                get: function () {
                   return !0;
                 },
                 configurable: !0
@@ -5620,7 +5607,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             window.MouseEvent.prototype = z.prototype;
           }
           Object.getOwnPropertyDescriptor(Node.prototype, "baseURI") || Object.defineProperty(Node.prototype, "baseURI", {
-            get: function get() {
+            get: function () {
               var t = (this.ownerDocument || this).querySelector("base[href]");
               return t && t.href || window.location.href;
             },
@@ -5649,7 +5636,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               configurable: !0,
               enumerable: !0,
               writable: !0,
-              value: function value(t) {
+              value: function (t) {
                 for (var e = [], n = 0; n < arguments.length; ++n) e[n] = arguments[n];
                 for (n = (e = l(e)).next(); !n.done; n = e.next()) n = n.value, it.call(this, "string" == typeof n ? document.createTextNode(n) : n);
               }
@@ -5667,7 +5654,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               configurable: !0,
               enumerable: !0,
               writable: !0,
-              value: function value(t) {
+              value: function (t) {
                 for (var e = [], n = 0; n < arguments.length; ++n) e[n] = arguments[n];
                 n = lt.call(this);
                 for (var i = (e = l(e)).next(); !i.done; i = e.next()) i = i.value, st.call(this, "string" == typeof i ? document.createTextNode(i) : i, n);
@@ -5687,7 +5674,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               configurable: !0,
               enumerable: !0,
               writable: !0,
-              value: function value(t) {
+              value: function (t) {
                 for (var e = [], n = 0; n < arguments.length; ++n) e[n] = arguments[n];
                 for (; null !== (n = pt.call(this));) ft.call(this, n);
                 for (n = (e = l(e)).next(); !n.done; n = e.next()) n = n.value, ht.call(this, "string" == typeof n ? document.createTextNode(n) : n);
@@ -5711,7 +5698,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               configurable: !0,
               enumerable: !0,
               writable: !0,
-              value: function value(t) {
+              value: function (t) {
                 for (var e = [], n = 0; n < arguments.length; ++n) e[n] = arguments[n];
                 if (null !== (n = Et.call(this))) for (var i = St.call(this), r = (e = l(e)).next(); !r.done; r = e.next()) r = r.value, bt.call(n, "string" == typeof r ? document.createTextNode(r) : r, i);
               }
@@ -5729,7 +5716,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               configurable: !0,
               enumerable: !0,
               writable: !0,
-              value: function value(t) {
+              value: function (t) {
                 for (var e = [], n = 0; n < arguments.length; ++n) e[n] = arguments[n];
                 if (null !== (n = At.call(this))) for (var i = (e = l(e)).next(); !i.done; i = e.next()) i = i.value, Tt.call(n, "string" == typeof i ? document.createTextNode(i) : i, this);
               }
@@ -5747,7 +5734,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               configurable: !0,
               enumerable: !0,
               writable: !0,
-              value: function value() {
+              value: function () {
                 var t = Lt.call(this);
                 t && Dt.call(t, this);
               }
@@ -5766,7 +5753,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               configurable: !0,
               enumerable: !0,
               writable: !0,
-              value: function value(t) {
+              value: function (t) {
                 for (var e = [], n = 0; n < arguments.length; ++n) e[n] = arguments[n];
                 if (null !== (n = Bt.call(this))) {
                   for (var i = (e = l(e)).next(); !i.done; i = e.next()) i = i.value, jt.call(n, "string" == typeof i ? document.createTextNode(i) : i, this);
@@ -5843,17 +5830,17 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 return t = e.call(this, t), this instanceof DocumentFragment && (t.__proto__ = DocumentFragment.prototype), t;
               }, DocumentFragment.prototype.querySelectorAll = HTMLElement.prototype.querySelectorAll, DocumentFragment.prototype.querySelector = HTMLElement.prototype.querySelector, Object.defineProperties(DocumentFragment.prototype, {
                 nodeType: {
-                  get: function get() {
+                  get: function () {
                     return Node.DOCUMENT_FRAGMENT_NODE;
                   },
                   configurable: !0
                 },
                 localName: {
-                  get: function get() {},
+                  get: function () {},
                   configurable: !0
                 },
                 nodeName: {
-                  get: function get() {
+                  get: function () {
                     return "#document-fragment";
                   },
                   configurable: !0
@@ -5886,15 +5873,15 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               c = Node.prototype.replaceChild,
               d = DOMParser.prototype.parseFromString,
               h = Object.getOwnPropertyDescriptor(window.HTMLElement.prototype, "innerHTML") || {
-                get: function get() {
+                get: function () {
                   return this.innerHTML;
                 },
-                set: function set(t) {
+                set: function (t) {
                   this.innerHTML = t;
                 }
               },
               f = Object.getOwnPropertyDescriptor(window.Node.prototype, "childNodes") || {
-                get: function get() {
+                get: function () {
                   return this.childNodes;
                 }
               },
@@ -5938,12 +5925,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   th: ["tr", "tbody", "table"],
                   td: ["tr", "tbody", "table"]
                 },
-                C = function C(e) {
+                C = function (e) {
                   Object.defineProperty(e, "innerHTML", {
-                    get: function get() {
+                    get: function () {
                       return D(this);
                     },
-                    set: function set(e) {
+                    set: function (e) {
                       var n = w[(/<([a-z][^/\0>\x20\t\r\n\f]+)/i.exec(e) || ["", ""])[1].toLowerCase()];
                       if (n) for (var i = 0; i < n.length; i++) e = "<" + n[i] + ">" + e + "</" + n[i] + ">";
                       for (g.body.innerHTML = e, t.bootstrap(g); this.content.firstChild;) l.call(this.content, this.content.firstChild);
@@ -5953,12 +5940,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                     configurable: !0
                   });
                 },
-                O = function O(t) {
+                O = function (t) {
                   Object.defineProperty(t, "outerHTML", {
-                    get: function get() {
+                    get: function () {
                       return "<template>" + this.innerHTML + "</template>";
                     },
-                    set: function set(t) {
+                    set: function (t) {
                       if (!this.parentNode) throw Error("Failed to set the 'outerHTML' property on 'Element': This element has no parent node.");
                       for (g.body.innerHTML = t, t = this.ownerDocument.createDocumentFragment(); g.body.firstChild;) u.call(t, g.body.firstChild);
                       c.call(this.parentNode, t, this);
@@ -5977,10 +5964,10 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 var e = d.apply(this, arguments);
                 return t.bootstrap(e), e;
               }, Object.defineProperty(HTMLElement.prototype, "innerHTML", {
-                get: function get() {
+                get: function () {
                   return D(this);
                 },
-                set: function set(e) {
+                set: function (e) {
                   h.set.call(this, e), t.bootstrap(this);
                 },
                 configurable: !0,
@@ -5988,7 +5975,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               });
               var T = /[&\u00A0"]/g,
                 A = /[&\u00A0<>]/g,
-                N = function N(t) {
+                N = function (t) {
                   switch (t) {
                     case "&":
                       return "&amp;";
@@ -6002,12 +5989,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                       return "&nbsp;";
                   }
                 },
-                M = (b = function b(t) {
+                M = (b = function (t) {
                   for (var e = {}, n = 0; n < t.length; n++) e[t[n]] = !0;
                   return e;
                 })("area base br col command embed hr img input keygen link meta param source track wbr".split(" ")),
                 P = b("style script xmp iframe noembed noframes plaintext noscript".split(" ")),
-                D = function D(t, e) {
+                D = function (t, e) {
                   "template" === t.localName && (t = t.content);
                   for (var n, i = "", r = e ? e(t) : f.get.call(t), o = 0, a = r.length; o < a && (n = r[o]); o++) {
                     t: {
@@ -6039,7 +6026,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 var n = o.call(t, !1);
                 return this.Z && this.Z(n), e && (u.call(n.content, o.call(t.content, !0)), L(n.content, t.content)), n;
               };
-              var L = function L(n, i) {
+              var L = function (n, i) {
                   if (i.querySelectorAll && 0 !== (i = e(i, "template")).length) for (var r, o, a = 0, s = (n = e(n, "template")).length; a < s; a++) o = i[a], r = n[a], t && t.Z && t.Z(o), c.call(r.parentNode, I.call(o, !0), r);
                 },
                 I = Node.prototype.cloneNode = function (e) {
@@ -6247,10 +6234,10 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
           var He = re.H,
             Fe = {
-              querySelector: function querySelector(t) {
+              querySelector: function (t) {
                 return this.__shady_native_querySelector(t);
               },
-              querySelectorAll: function querySelectorAll(t) {
+              querySelectorAll: function (t) {
                 return this.__shady_native_querySelectorAll(t);
               }
             },
@@ -6379,7 +6366,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               return window.addEventListener("test", t, n), window.removeEventListener("test", t, n), e;
             }();
           function un(t) {
-            if (t && "object" == _typeof(t)) var e = !!t.capture,
+            if (t && "object" == typeof t) var e = !!t.capture,
               n = !!t.once,
               i = !!t.passive,
               r = t.U;else e = !!t, i = n = !1;
@@ -6489,7 +6476,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             Object.defineProperty(t, "currentTarget", {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return a;
               }
             });
@@ -6497,7 +6484,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             Object.defineProperty(t, "eventPhase", {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return r;
               }
             });
@@ -6532,18 +6519,18 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               a = i.passive,
               s = i.La;
             if (i = i.Ja, e) {
-              var l = _typeof(e);
+              var l = typeof e;
               if (("function" === l || "object" === l) && ("object" !== l || e.handleEvent && "function" == typeof e.handleEvent)) {
                 if (dn[t]) return this.__shady_native_addEventListener(t, e, i);
                 var u = s || this;
                 if (s = e[an]) {
                   if (-1 < bn(s, u, t, r, o, a)) return;
                 } else e[an] = [];
-                s = function s(i) {
+                s = function (i) {
                   if (o && this.__shady_removeEventListener(t, e, n), i.__target || On(i), u !== this) {
                     var a = Object.getOwnPropertyDescriptor(i, "currentTarget");
                     Object.defineProperty(i, "currentTarget", {
-                      get: function get() {
+                      get: function () {
                         return u;
                       },
                       configurable: !0
@@ -6552,7 +6539,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                     Object.defineProperty(i, "eventPhase", {
                       configurable: !0,
                       enumerable: !0,
-                      get: function get() {
+                      get: function () {
                         return r ? Event.CAPTURING_PHASE : Event.BUBBLING_PHASE;
                       }
                     });
@@ -6596,7 +6583,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             get composed() {
               return void 0 === this.__composed && (sn ? this.__composed = "focusin" === this.type || "focusout" === this.type || sn(this) : !1 !== this.isTrusted && (this.__composed = cn[this.type])), this.__composed || !1;
             },
-            composedPath: function composedPath() {
+            composedPath: function () {
               return this.__composedPath || (this.__composedPath = fn(this.__target, this.composed)), this.__composedPath;
             },
             get target() {
@@ -6605,10 +6592,10 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             get relatedTarget() {
               return this.__relatedTarget ? (this.__relatedTargetComposedPath || (this.__relatedTargetComposedPath = fn(this.__relatedTarget, !0)), pn(this.currentTarget || this.__previousCurrentTarget, this.__relatedTargetComposedPath)) : null;
             },
-            stopPropagation: function stopPropagation() {
+            stopPropagation: function () {
               Event.prototype.stopPropagation.call(this), this.ra = !0;
             },
-            stopImmediatePropagation: function stopImmediatePropagation() {
+            stopImmediatePropagation: function () {
               Event.prototype.stopImmediatePropagation.call(this), this.ra = this.__immediatePropagationStopped = !0;
             }
           });
@@ -6632,12 +6619,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             });
           function Dn(t) {
             return {
-              set: function set(e) {
+              set: function (e) {
                 var n = ne(this),
                   i = t.substring(2);
                 n.T || (n.T = {}), n.T[t] && this.removeEventListener(i, n.T[t]), this.__shady_addEventListener(i, e), n.T[t] = e;
               },
-              get: function get() {
+              get: function () {
                 var e = ie(this);
                 return e && e.T && e.T[t];
               },
@@ -6828,7 +6815,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                     this.nodeValue = t;
                 }
               },
-              insertBefore: function insertBefore(t, e) {
+              insertBefore: function (t, e) {
                 if (this.ownerDocument !== Gn && t.ownerDocument !== Gn) return this.__shady_native_insertBefore(t, e), t;
                 if (t === this) throw Error("Failed to execute 'appendChild' on 'Node': The new child element contains the parent.");
                 if (e) {
@@ -6859,10 +6846,10 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   if (void 0 !== i.firstChild && (i.childNodes = null), t.nodeType === Node.DOCUMENT_FRAGMENT_NODE) for (t = t.__shady_native_firstChild; t; t = t.__shady_native_nextSibling) Pi(t, e, i, n);else Pi(t, e, i, n);
                 }(t, this, e), (s = ie(this)).root ? (o = !1, ue(this) && Hi(s.root)) : n && "slot" === this.localName && (o = !1, Hi(n))), o ? (n = le(this) ? this.host : this, e ? (e = Jn(e), n.__shady_native_insertBefore(t, e)) : n.__shady_native_appendChild(t)) : t.ownerDocument !== this.ownerDocument && this.ownerDocument.adoptNode(t), t;
               },
-              appendChild: function appendChild(t) {
+              appendChild: function (t) {
                 if (this != t || !le(t)) return this.__shady_insertBefore(t);
               },
-              removeChild: function removeChild(t, e) {
+              removeChild: function (t, e) {
                 if (e = void 0 !== e && e, this.ownerDocument !== Gn) return this.__shady_native_removeChild(t);
                 if (t.__shady_parentNode !== this) throw Error("The node to be removed is not a child of this node: " + t);
                 Zn(this, null, t);
@@ -6906,10 +6893,10 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 }
                 return Kn(t), n && ((e = "slot" === this.localName) && (o = !0), (i || e) && Hi(n)), o || (o = le(this) ? this.host : this, (!r.root && "slot" !== t.localName || o === t.__shady_native_parentNode) && o.__shady_native_removeChild(t)), t;
               },
-              replaceChild: function replaceChild(t, e) {
+              replaceChild: function (t, e) {
                 return this.__shady_insertBefore(t, e), this.__shady_removeChild(e), t;
               },
-              cloneNode: function cloneNode(t) {
+              cloneNode: function (t) {
                 if ("template" == this.localName) return this.__shady_native_cloneNode(t);
                 var e = this.__shady_native_cloneNode(!1);
                 if (t && e.nodeType !== Node.ATTRIBUTE_NODE) {
@@ -6918,14 +6905,14 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 }
                 return e;
               },
-              getRootNode: function getRootNode(t) {
+              getRootNode: function (t) {
                 if (this && this.nodeType) {
                   var e = ne(this),
                     n = e.qa;
                   return void 0 === n && (le(this) ? (n = this, e.qa = n) : (n = (n = this.__shady_parentNode) ? n.__shady_getRootNode(t) : this, document.documentElement.__shady_native_contains(this) && (e.qa = n))), n;
                 }
               },
-              contains: function contains(t) {
+              contains: function (t) {
                 return ye(this, t);
               }
             }),
@@ -6991,14 +6978,14 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               this.__shady_insertBefore(Ae.apply(null, u(e)), null);
             }, ei)),
             ii = Ce({
-              querySelector: function querySelector(t) {
+              querySelector: function (t) {
                 return Qn(this, function (e) {
                   return de.call(e, t);
                 }, function (t) {
                   return !!t;
                 })[0] || null;
               },
-              querySelectorAll: function querySelectorAll(t, e) {
+              querySelectorAll: function (t, e) {
                 if (e) {
                   e = Array.prototype.slice.call(this.__shady_native_querySelectorAll(t));
                   var n = this.__shady_getRootNode();
@@ -7014,22 +7001,22 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             ri = re.fa && !re.J ? Oe({}, ni) : ni;
           Oe(ni, ii);
           var oi = Ce({
-              after: function after(t) {
+              after: function (t) {
                 for (var e = [], n = 0; n < arguments.length; ++n) e[n] = arguments[n];
                 if (null !== (n = this.__shady_parentNode)) {
                   var i = this.__shady_nextSibling;
                   n.__shady_insertBefore(Ae.apply(null, u(e)), i);
                 }
               },
-              before: function before(t) {
+              before: function (t) {
                 for (var e = [], n = 0; n < arguments.length; ++n) e[n] = arguments[n];
                 null !== (n = this.__shady_parentNode) && n.__shady_insertBefore(Ae.apply(null, u(e)), this);
               },
-              remove: function remove() {
+              remove: function () {
                 var t = this.__shady_parentNode;
                 null !== t && t.__shady_removeChild(this);
               },
-              replaceWith: function replaceWith(t) {
+              replaceWith: function (t) {
                 for (var e = [], n = 0; n < arguments.length; ++n) e[n] = arguments[n];
                 if (null !== (n = this.__shady_parentNode)) {
                   var i = this.__shady_nextSibling;
@@ -7081,10 +7068,10 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             set className(t) {
               this.__shady_setAttribute("class", t);
             },
-            setAttribute: function setAttribute(t, e) {
+            setAttribute: function (t, e) {
               this.ownerDocument !== ai ? this.__shady_native_setAttribute(t, e) : Bn(this, t, e) || (this.__shady_native_setAttribute(t, e), si(this, t));
             },
-            removeAttribute: function removeAttribute(t) {
+            removeAttribute: function (t) {
               this.ownerDocument !== ai ? this.__shady_native_removeAttribute(t) : Bn(this, t, "") ? "" === this.getAttribute(t) && this.__shady_native_removeAttribute(t) : (this.__shady_native_removeAttribute(t), si(this, t));
             }
           });
@@ -7092,7 +7079,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             li[t] = Dn(t);
           });
           var ui = Ce({
-            attachShadow: function attachShadow(t) {
+            attachShadow: function (t) {
               if (!this) throw Error("Must provide a host.");
               if (!t) throw Error("Not enough arguments.");
               if (t.shadyUpgradeFragment && !re.Na) {
@@ -7125,7 +7112,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               }
             }),
             hi = Ce({
-              blur: function blur() {
+              blur: function () {
                 var t = ie(this);
                 (t = (t = t && t.root) && t.activeElement) ? t.__shady_blur() : this.__shady_native_blur();
               }
@@ -7134,15 +7121,15 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             hi[t] = Dn(t);
           });
           var fi = Ce({
-              assignedNodes: function assignedNodes(t) {
+              assignedNodes: function (t) {
                 if ("slot" === this.localName) {
                   var e = this.__shady_getRootNode();
                   return e && le(e) && Fi(e), (e = ie(this)) && (t && t.flatten ? e.aa : e.assignedNodes) || [];
                 }
               },
-              addEventListener: function addEventListener(t, e, n) {
+              addEventListener: function (t, e, n) {
                 if ("slot" !== this.localName || "slotchange" === t) Sn.call(this, t, e, n);else {
-                  "object" != _typeof(n) && (n = {
+                  "object" != typeof n && (n = {
                     capture: !!n
                   });
                   var i = this.__shady_parentNode;
@@ -7150,9 +7137,9 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   n.U = this, i.__shady_addEventListener(t, e, n);
                 }
               },
-              removeEventListener: function removeEventListener(t, e, n) {
+              removeEventListener: function (t, e, n) {
                 if ("slot" !== this.localName || "slotchange" === t) wn.call(this, t, e, n);else {
-                  "object" != _typeof(n) && (n = {
+                  "object" != typeof n && (n = {
                     capture: !!n
                   });
                   var i = this.__shady_parentNode;
@@ -7162,7 +7149,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               }
             }),
             pi = Ce({
-              getElementById: function getElementById(t) {
+              getElementById: function (t) {
                 return "" === t ? null : Qn(this, function (e) {
                   return e.id == t;
                 }, function (t) {
@@ -7184,7 +7171,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 for (e = Qi(t); e && e !== this;) e = Qi(t = e.host);
                 return this === document ? e ? null : t : e === this ? t : null;
               },
-              elementsFromPoint: function elementsFromPoint(t, e) {
+              elementsFromPoint: function (t, e) {
                 t = [].slice.call(document[vi](t, e)), e = function (t) {
                   var e = new Set();
                   for (e.add(t); le(t) && t.host;) t = t.host.__shady_getRootNode(), e.add(t);
@@ -7196,13 +7183,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   return r.push(t);
                 }), r;
               },
-              elementFromPoint: function elementFromPoint(t, e) {
+              elementFromPoint: function (t, e) {
                 return this.__shady_elementsFromPoint(t, e)[0] || null;
               }
             }),
             gi = window.document,
             _i = Ce({
-              importNode: function importNode(t, e) {
+              importNode: function (t, e) {
                 if (t.ownerDocument !== gi || "template" === t.localName) return this.__shady_native_importNode(t, e);
                 var n = this.__shady_native_importNode(t, !1);
                 if (e) for (t = t.__shady_firstChild; t; t = t.__shady_nextSibling) e = this.__shady_importNode(t, !0), n.__shady_appendChild(e);
@@ -7278,13 +7265,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             }
           }
           var Li = Ce({
-            addEventListener: function addEventListener(t, e, n) {
-              "object" != _typeof(n) && (n = {
+            addEventListener: function (t, e, n) {
+              "object" != typeof n && (n = {
                 capture: !!n
               }), n.U = n.U || this, this.host.__shady_addEventListener(t, e, n);
             },
-            removeEventListener: function removeEventListener(t, e, n) {
-              "object" != _typeof(n) && (n = {
+            removeEventListener: function (t, e, n) {
+              "object" != typeof n && (n = {
                 capture: !!n
               }), n.U = n.U || this, this.host.__shady_removeEventListener(t, e, n);
             }
@@ -7423,7 +7410,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               });
             }), ["ownerDocument", "baseURI", "isConnected"].forEach(function (e) {
               Object.defineProperty(t, e, {
-                get: function get() {
+                get: function () {
                   return this.host[e];
                 },
                 configurable: !0
@@ -7431,7 +7418,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             });
           }(Bi.prototype), window.customElements && window.customElements.define && re.ya && !re.preferPerformance) {
             var Zi = new Map();
-            xi = function xi() {
+            xi = function () {
               var t = [];
               Zi.forEach(function (e, n) {
                 t.push([n, e]);
@@ -7446,7 +7433,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               once: !0
             });
             var Xi = window.customElements.define,
-              $i = function $i(t, e) {
+              $i = function (t, e) {
                 var n = e.prototype.connectedCallback,
                   i = e.prototype.disconnectedCallback;
                 Xi.call(window.customElements, t, function (t, e, n) {
@@ -7472,10 +7459,10 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
           function er(t) {
             Object.defineProperty(tr.prototype, t, {
-              get: function get() {
+              get: function () {
                 return this.node["__shady_" + t];
               },
-              set: function set(e) {
+              set: function (e) {
                 this.node["__shady_" + t] = e;
               },
               configurable: !0
@@ -7550,173 +7537,173 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             activeElement: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 if (le(this.node) || this.node.nodeType === Node.DOCUMENT_NODE) return this.node.__shady_activeElement;
               }
             },
             _activeElement: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.activeElement;
               }
             },
             host: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 if (le(this.node)) return this.node.host;
               }
             },
             parentNode: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_parentNode;
               }
             },
             firstChild: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_firstChild;
               }
             },
             lastChild: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_lastChild;
               }
             },
             nextSibling: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_nextSibling;
               }
             },
             previousSibling: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_previousSibling;
               }
             },
             childNodes: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_childNodes;
               }
             },
             parentElement: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_parentElement;
               }
             },
             firstElementChild: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_firstElementChild;
               }
             },
             lastElementChild: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_lastElementChild;
               }
             },
             nextElementSibling: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_nextElementSibling;
               }
             },
             previousElementSibling: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_previousElementSibling;
               }
             },
             children: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_children;
               }
             },
             childElementCount: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_childElementCount;
               }
             },
             shadowRoot: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_shadowRoot;
               }
             },
             assignedSlot: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_assignedSlot;
               }
             },
             isConnected: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_isConnected;
               }
             },
             innerHTML: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_innerHTML;
               },
-              set: function set(t) {
+              set: function (t) {
                 this.node.__shady_innerHTML = t;
               }
             },
             textContent: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_textContent;
               },
-              set: function set(t) {
+              set: function (t) {
                 this.node.__shady_textContent = t;
               }
             },
             slot: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_slot;
               },
-              set: function set(t) {
+              set: function (t) {
                 this.node.__shady_slot = t;
               }
             },
             className: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return this.node.__shady_className;
               },
-              set: function set(t) {
+              set: function (t) {
                 this.node.__shady_className = t;
               }
             }
@@ -7743,11 +7730,11 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 isShadyRoot: le,
                 enqueue: Pe,
                 flush: De,
-                flushInitial: function flushInitial(t) {
+                flushInitial: function (t) {
                   !t.Fa && t.Y && Fi(t);
                 },
                 settings: re,
-                filterMutations: function filterMutations(t, e) {
+                filterMutations: function (t, e) {
                   var n = e.getRootNode();
                   return t.map(function (t) {
                     var e = n === t.target.getRootNode();
@@ -7763,7 +7750,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                     return t;
                   });
                 },
-                observeChildren: function observeChildren(t, e) {
+                observeChildren: function (t, e) {
                   var n = ne(t);
                   n.ea || (n.ea = new Le()), n.ea.oa.add(e);
                   var i = n.ea;
@@ -7771,12 +7758,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                     Ra: e,
                     X: i,
                     Sa: t,
-                    takeRecords: function takeRecords() {
+                    takeRecords: function () {
                       return i.takeRecords();
                     }
                   };
                 },
-                unobserveChildren: function unobserveChildren(t) {
+                unobserveChildren: function (t) {
                   var e = t && t.X;
                   e && (e.oa.delete(t.Ra), e.oa.size || (ne(t.Sa).ea = null));
                 },
@@ -7788,7 +7775,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   return t;
                 },
                 Wrapper: tr,
-                composedPath: function composedPath(t) {
+                composedPath: function (t) {
                   return t.__composedPath || (t.__composedPath = fn(t.target, !0)), t.__composedPath;
                 },
                 noPatch: re.J,
@@ -7801,32 +7788,32 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               var t = ["dispatchEvent", "addEventListener", "removeEventListener"];
               window.EventTarget ? (Ye(window.EventTarget.prototype, t), void 0 === window.__shady_native_addEventListener && Ye(Window.prototype, t)) : (Ye(Node.prototype, t), Ye(Window.prototype, t)), He ? Ye(Node.prototype, "parentNode firstChild lastChild previousSibling nextSibling childNodes parentElement textContent".split(" ")) : qe(Node.prototype, {
                 parentNode: {
-                  get: function get() {
+                  get: function () {
                     return We.currentNode = this, We.parentNode();
                   }
                 },
                 firstChild: {
-                  get: function get() {
+                  get: function () {
                     return We.currentNode = this, We.firstChild();
                   }
                 },
                 lastChild: {
-                  get: function get() {
+                  get: function () {
                     return We.currentNode = this, We.lastChild();
                   }
                 },
                 previousSibling: {
-                  get: function get() {
+                  get: function () {
                     return We.currentNode = this, We.previousSibling();
                   }
                 },
                 nextSibling: {
-                  get: function get() {
+                  get: function () {
                     return We.currentNode = this, We.nextSibling();
                   }
                 },
                 childNodes: {
-                  get: function get() {
+                  get: function () {
                     var t = [];
                     We.currentNode = this;
                     for (var e = We.firstChild(); e;) t.push(e), e = We.nextSibling();
@@ -7834,12 +7821,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   }
                 },
                 parentElement: {
-                  get: function get() {
+                  get: function () {
                     return ze.currentNode = this, ze.parentNode();
                   }
                 },
                 textContent: {
-                  get: function get() {
+                  get: function () {
                     switch (this.nodeType) {
                       case Node.ELEMENT_NODE:
                       case Node.DOCUMENT_FRAGMENT_NODE:
@@ -7849,7 +7836,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                         return this.nodeValue;
                     }
                   },
-                  set: function set(t) {
+                  set: function (t) {
                     switch (null == t && (t = ""), this.nodeType) {
                       case Node.ELEMENT_NODE:
                       case Node.DOCUMENT_FRAGMENT_NODE:
@@ -7862,17 +7849,17 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 }
               }), Ye(Node.prototype, "appendChild insertBefore removeChild replaceChild cloneNode contains".split(" ")), Ye(HTMLElement.prototype, ["parentElement", "contains"]), t = {
                 firstElementChild: {
-                  get: function get() {
+                  get: function () {
                     return ze.currentNode = this, ze.firstChild();
                   }
                 },
                 lastElementChild: {
-                  get: function get() {
+                  get: function () {
                     return ze.currentNode = this, ze.lastChild();
                   }
                 },
                 children: {
-                  get: function get() {
+                  get: function () {
                     var t = [];
                     ze.currentNode = this;
                     for (var e = ze.firstChild(); e;) t.push(e), e = ze.nextSibling();
@@ -7880,26 +7867,26 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   }
                 },
                 childElementCount: {
-                  get: function get() {
+                  get: function () {
                     return this.children ? this.children.length : 0;
                   }
                 }
               }, He ? (Ye(Element.prototype, Ze), Ye(Element.prototype, ["previousElementSibling", "nextElementSibling", "innerHTML", "className"]), Ye(HTMLElement.prototype, ["children", "innerHTML", "className"])) : (qe(Element.prototype, t), qe(Element.prototype, {
                 previousElementSibling: {
-                  get: function get() {
+                  get: function () {
                     return ze.currentNode = this, ze.previousSibling();
                   }
                 },
                 nextElementSibling: {
-                  get: function get() {
+                  get: function () {
                     return ze.currentNode = this, ze.nextSibling();
                   }
                 },
                 innerHTML: {
-                  get: function get() {
+                  get: function () {
                     return Ue(this, _e);
                   },
-                  set: function set(t) {
+                  set: function (t) {
                     var e = "template" === this.localName ? this.content : this;
                     Je(e);
                     var n = this.localName || "div";
@@ -7907,17 +7894,17 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   }
                 },
                 className: {
-                  get: function get() {
+                  get: function () {
                     return this.getAttribute("class") || "";
                   },
-                  set: function set(t) {
+                  set: function (t) {
                     this.setAttribute("class", t);
                   }
                 }
               })), Ye(Element.prototype, "setAttribute getAttribute hasAttribute removeAttribute focus blur".split(" ")), Ye(Element.prototype, Xe), Ye(HTMLElement.prototype, ["focus", "blur"]), window.HTMLTemplateElement && Ye(window.HTMLTemplateElement.prototype, ["innerHTML"]), He ? Ye(DocumentFragment.prototype, Ze) : qe(DocumentFragment.prototype, t), Ye(DocumentFragment.prototype, Xe), He ? (Ye(Document.prototype, Ze), Ye(Document.prototype, ["activeElement"])) : qe(Document.prototype, t), Ye(Document.prototype, ["importNode", "getElementById", "elementFromPoint", ae()]), Ye(Document.prototype, Xe);
             }(), Oi("__shady_"), Object.defineProperty(document, "_activeElement", yi.activeElement), Se(Window.prototype, bi, "__shady_"), re.J ? re.Aa && Se(Element.prototype, ui) : (Oi(), function () {
               if (!sn && Object.getOwnPropertyDescriptor(Event.prototype, "isTrusted")) {
-                var t = function t() {
+                var t = function () {
                   var t = new MouseEvent("click", {
                     bubbles: !0,
                     cancelable: !0,
@@ -8141,14 +8128,14 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             }) : ((o = document.createEvent("ErrorEvent")).initErrorEvent("error", !1, !0, e, n, i), o.preventDefault = function () {
               Object.defineProperty(this, "defaultPrevented", {
                 configurable: !0,
-                get: function get() {
+                get: function () {
                   return !0;
                 }
               });
             }), void 0 === o.error && Object.defineProperty(o, "error", {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return t;
               }
             }), window.dispatchEvent(o), o.defaultPrevented;
@@ -8185,7 +8172,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             try {
               var r = n.prototype;
               if (!(r instanceof Object)) throw new TypeError("The custom element constructor's prototype is not an object.");
-              var o = function o(t) {
+              var o = function (t) {
                   var e = r[t];
                   if (void 0 !== e && !(e instanceof Function)) throw Error("The '" + t + "' callback must be a function.");
                   return e;
@@ -8215,7 +8202,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               t.V = !1;
               for (var e = [], n = t.ma, i = new Map(), r = 0; r < n.length; r++) i.set(n[r], []);
               for ($r(t.S, document, {
-                upgrade: function upgrade(n) {
+                upgrade: function (n) {
                   if (void 0 === n.__CE_state) {
                     var r = n.localName,
                       o = i.get(r);
@@ -8263,7 +8250,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 enumerable: n.enumerable,
                 configurable: !0,
                 get: n.get,
-                set: function set(e) {
+                set: function (e) {
                   var i = this,
                     r = void 0;
                   if (Vr(this) && (r = [], zr(t, this, function (t) {
@@ -8309,10 +8296,10 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               e(t, {
                 enumerable: !0,
                 configurable: !0,
-                get: function get() {
+                get: function () {
                   return fr.call(this, !0).innerHTML;
                 },
-                set: function set(t) {
+                set: function (t) {
                   var e = "template" === this.localName,
                     n = e ? this.content : this,
                     i = sr.call(document, this.namespaceURI, this.localName);
@@ -8471,7 +8458,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   enumerable: n.enumerable,
                   configurable: !0,
                   get: n.get,
-                  set: function set(e) {
+                  set: function (e) {
                     if (this.nodeType === Node.TEXT_NODE) n.set.call(this, e);else {
                       var i = void 0;
                       if (this.firstChild) {
@@ -8523,11 +8510,11 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 e(t, {
                   enumerable: !0,
                   configurable: !0,
-                  get: function get() {
+                  get: function () {
                     for (var t = [], e = this.firstChild; e; e = e.nextSibling) e.nodeType !== Node.COMMENT_NODE && t.push(e.textContent);
                     return t.join("");
                   },
-                  set: function set(t) {
+                  set: function (t) {
                     for (; this.firstChild;) vr.call(this, this.firstChild);
                     null != t && "" !== t && pr.call(this, document.createTextNode(t));
                   }
@@ -8805,7 +8792,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             g: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return "style-scope";
               }
             }
@@ -8942,7 +8929,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             g: {
               configurable: !0,
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return "x-scope";
               }
             }
@@ -8994,26 +8981,26 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
           if (!(xo || window.ShadyDOM && window.ShadyDOM.handlesDynamicScoping)) {
             var $a = new MutationObserver(Xa),
-              Qa = function Qa(t) {
+              Qa = function (t) {
                 $a.observe(t, {
                   childList: !0,
                   subtree: !0
                 });
               };
             if (window.customElements && !window.customElements.polyfillWrapFlushCallback) Qa(document);else {
-              var ts = function ts() {
+              var ts = function () {
                 Qa(document.body);
               };
               window.HTMLImports ? window.HTMLImports.whenReady(ts) : requestAnimationFrame(function () {
                 if ("loading" === document.readyState) {
-                  var t = function t() {
+                  var t = function () {
                     ts(), document.removeEventListener("readystatechange", t);
                   };
                   document.addEventListener("readystatechange", t);
                 } else ts();
               });
             }
-            za = function za() {
+            za = function () {
               Xa($a.takeRecords());
             };
           }
@@ -9264,12 +9251,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             return Ja(t);
           }, ss.prototype.flush = ss.prototype.flush, ss.prototype.prepareTemplate = ss.prototype.prepareTemplate, ss.prototype.styleElement = ss.prototype.styleElement, ss.prototype.styleDocument = ss.prototype.styleDocument, ss.prototype.styleSubtree = ss.prototype.styleSubtree, ss.prototype.getComputedStyleValue = ss.prototype.getComputedStyleValue, ss.prototype.setElementClass = ss.prototype.kb, ss.prototype._styleInfoForNode = ss.prototype.Ta, ss.prototype.transformCustomStyleForDocument = ss.prototype.Ma, ss.prototype.getStyleAst = ss.prototype.Xa, ss.prototype.styleAstToString = ss.prototype.lb, ss.prototype.flushCustomStyles = ss.prototype.flushCustomStyles, ss.prototype.scopeNode = ss.prototype.jb, ss.prototype.unscopeNode = ss.prototype.mb, ss.prototype.scopeForNode = ss.prototype.ib, ss.prototype.currentScopeForNode = ss.prototype.Va, ss.prototype.prepareAdoptedCssText = ss.prototype.fb, Object.defineProperties(ss.prototype, {
             nativeShadow: {
-              get: function get() {
+              get: function () {
                 return xo;
               }
             },
             nativeCss: {
-              get: function get() {
+              get: function () {
                 return Ro;
               }
             }
@@ -9279,28 +9266,28 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             ms = new ss();
           window.ShadyCSS && (fs = window.ShadyCSS.ApplyShim, ps = window.ShadyCSS.CustomStyleInterface), window.ShadyCSS = {
             ScopingShim: ms,
-            prepareTemplate: function prepareTemplate(t, e, n) {
+            prepareTemplate: function (t, e, n) {
               ms.flushCustomStyles(), ms.prepareTemplate(t, e, n);
             },
-            prepareTemplateDom: function prepareTemplateDom(t, e) {
+            prepareTemplateDom: function (t, e) {
               ms.prepareTemplateDom(t, e);
             },
-            prepareTemplateStyles: function prepareTemplateStyles(t, e, n) {
+            prepareTemplateStyles: function (t, e, n) {
               ms.flushCustomStyles(), ms.prepareTemplateStyles(t, e, n);
             },
-            styleSubtree: function styleSubtree(t, e) {
+            styleSubtree: function (t, e) {
               ms.flushCustomStyles(), ms.styleSubtree(t, e);
             },
-            styleElement: function styleElement(t) {
+            styleElement: function (t) {
               ms.flushCustomStyles(), ms.styleElement(t);
             },
-            styleDocument: function styleDocument(t) {
+            styleDocument: function (t) {
               ms.flushCustomStyles(), ms.styleDocument(t);
             },
-            flushCustomStyles: function flushCustomStyles() {
+            flushCustomStyles: function () {
               ms.flushCustomStyles();
             },
-            getComputedStyleValue: function getComputedStyleValue(t, e) {
+            getComputedStyleValue: function (t, e) {
               return ms.getComputedStyleValue(t, e);
             },
             nativeCss: Ro,
@@ -9489,7 +9476,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               var d = /[a-zA-Z]/,
                 h = /[a-zA-Z0-9+\-.]/;
               a.prototype = {
-                toString: function toString() {
+                toString: function () {
                   return this.href;
                 },
                 get href() {
@@ -9578,13 +9565,11 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           })) : _s();
         }).call(this);
       },
-      "yacf2d": function yacf2d(t, e, n) {
+      "yacf2d": (t, e, n) => {
         "use strict";
 
         n.r(e), n.d(e, {
-          default: function _default() {
-            return y;
-          }
+          default: () => y
         });
         var i = n("g16fc052"),
           r = n.n(i),
@@ -9624,7 +9609,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             i.enumerable = i.enumerable || !1, i.configurable = !0, "value" in i && (i.writable = !0), Object.defineProperty(t, i.key, i);
           }
         }
-        var y = function () {
+        const y = function () {
           function t(e) {
             var n,
               i,
@@ -9632,7 +9617,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               a = this;
             !function (t, e) {
               if (!(t instanceof e)) throw new TypeError("Cannot call a class as a function");
-            }(this, t), o = function o(t) {
+            }(this, t), o = function (t) {
               var e = (0, l.deepClone)(a.config);
               e.adSlots = [a.adSlots[0]], a.adSlots.length > 1 && a.adSlots.shift(), e.params.target.node = t, e.params.target = {
                 node: t,
@@ -9654,14 +9639,14 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           var e, n, i;
           return e = t, (n = [{
             key: "kill",
-            value: function value() {
+            value: function () {
               this.isKilled = !0, clearInterval(this.spaceCheckInterval), this.floatInstances.forEach(function (t) {
                 return t.kill();
               }), this.column && this.column.remove();
             }
           }, {
             key: "createFloatContainer",
-            value: function value() {
+            value: function () {
               var t = this.config.params,
                 e = t.distance,
                 n = t.floatContainer,
@@ -9675,7 +9660,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             }
           }, {
             key: "setup",
-            value: function value() {
+            value: function () {
               var t = this,
                 e = {
                   selector: "body",
@@ -9692,7 +9677,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               var c = i.frameSelector ? h().iframeContent(i.frameSelector) : null;
               if (c && (i.bindTo = c.iframeDocument, u.bindTo = c.iframeDocument), this.bottomLimiter = h().findSelector(u), this.target = h().findSelector(i), this.target) {
                 this.column = (0, s.createElement)(r.element), this.target.insertAdjacentElement(i.insertMethod || "beforeend", this.column), this.bottomLimiter || (u = e, this.bottomLimiter = document.querySelector(u.selector));
-                var d = function d() {
+                var d = function () {
                   if (!t.isKilled) for (var e, n, i, r = (n = (e = u).stopAt, i = e.offset, a()(t.column), a()(t.bottomLimiter), ("top" === n ? t.bottomLimiter._absoluteTop : t.bottomLimiter._absoluteBottom) - i - t.column._absoluteTop), s = Math.floor((r - t.floatsCount * o) / o), c = 0; c < s; c++) {
                     if (t.floatsCount >= l) return;
                     var d = t.createFloatContainer();
@@ -9705,7 +9690,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }]) && v(e.prototype, n), i && v(e, i), t;
         }();
       },
-      "wc0492c23": function wc0492c23(t, e, n) {
+      "wc0492c23": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -9719,7 +9704,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("u7216c"));
         e.default = r.default;
       },
-      "ncad2": function ncad2(t, e, n) {
+      "ncad2": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -9748,7 +9733,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = r;
       },
-      "yaecd": function yaecd(t, e, n) {
+      "yaecd": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -9762,7 +9747,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("nc0416"));
         e.default = r.default;
       },
-      "r6002b4d": function r6002b4d(t, e, n) {
+      "r6002b4d": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -9844,7 +9829,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = r;
       },
-      "cd80be6": function cd80be6(t, e, n) {
+      "cd80be6": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -9857,7 +9842,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               this.internalState = i.deepClone(t);
             }
             return Object.defineProperty(t.prototype, "state", {
-              get: function get() {
+              get: function () {
                 return i.deepClone(this.internalState);
               },
               enumerable: !1,
@@ -9870,7 +9855,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }())(r.INITIAL_STATE);
         e.default = o;
       },
-      "x7a4d090": function x7a4d090(t, e, n) {
+      "x7a4d090": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -9914,7 +9899,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = s;
       },
-      "c4c8b1c": function c4c8b1c(t, e, n) {
+      "c4c8b1c": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -10038,7 +10023,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = s;
       },
-      "d6403ff7": function d6403ff7(t, e, n) {
+      "d6403ff7": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -10065,7 +10050,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = r;
       },
-      "gbceed": function gbceed(t, e) {
+      "gbceed": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -10109,7 +10094,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           adPlayerCloseButton: ".orp-control.orp-close"
         }, e.BACKGROUND_COLOR = "black";
       },
-      "qa1811ec": function qa1811ec(t, e, n) {
+      "qa1811ec": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -10224,7 +10209,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = f;
       },
-      "aa60b23": function aa60b23(t, e, n) {
+      "aa60b23": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -10238,7 +10223,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("yf252f63e"));
         e.default = r.default;
       },
-      "u7216c": function u7216c(t, e, n) {
+      "u7216c": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -10250,7 +10235,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           r = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -10416,7 +10401,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = p;
       },
-      "r704dc": function r704dc(t, e, n) {
+      "r704dc": function (t, e, n) {
         "use strict";
 
         var i = this && this.__read || function (t, e) {
@@ -10454,7 +10439,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           value: !0
         }), e.isInViewport = void 0;
         var a = o(n("l8966671")),
-          s = function s(t, e) {
+          s = function (t, e) {
             new MutationObserver(function (n, o) {
               !function (t, e, n, o) {
                 t.some(function (t) {
@@ -10486,7 +10471,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               l = {
                 rootMargin: "0px"
               },
-              u = function u() {
+              u = function () {
                 o || (o = a.default.findSelector(t)), new IntersectionObserver(function (t, e) {
                   return function (n, i) {
                     n[0].isIntersecting && (setTimeout(function () {
@@ -10500,7 +10485,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           };
         };
       },
-      "n74136": function n74136(t, e, n) {
+      "n74136": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -10514,7 +10499,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("x7a4d090"));
         e.default = r.default;
       },
-      "ua451fed": function ua451fed(t) {
+      "ua451fed": t => {
         !function (e) {
           "use strict";
 
@@ -10573,16 +10558,16 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               };
             }, u.values = P, M.prototype = {
               constructor: M,
-              reset: function reset(t) {
+              reset: function (t) {
                 if (this.prev = 0, this.next = 0, this.sent = this._sent = n, this.done = !1, this.delegate = null, this.method = "next", this.arg = n, this.tryEntries.forEach(N), !t) for (var e in this) "t" === e.charAt(0) && r.call(this, e) && !isNaN(+e.slice(1)) && (this[e] = n);
               },
-              stop: function stop() {
+              stop: function () {
                 this.done = !0;
                 var t = this.tryEntries[0].completion;
                 if ("throw" === t.type) throw t.arg;
                 return this.rval;
               },
-              dispatchException: function dispatchException(t) {
+              dispatchException: function (t) {
                 if (this.done) throw t;
                 var e = this;
                 function i(i, r) {
@@ -10607,7 +10592,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                   }
                 }
               },
-              abrupt: function abrupt(t, e) {
+              abrupt: function (t, e) {
                 for (var n = this.tryEntries.length - 1; n >= 0; --n) {
                   var i = this.tryEntries[n];
                   if (i.tryLoc <= this.prev && r.call(i, "finallyLoc") && this.prev < i.finallyLoc) {
@@ -10619,17 +10604,17 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 var a = o ? o.completion : {};
                 return a.type = t, a.arg = e, o ? (this.method = "next", this.next = o.finallyLoc, p) : this.complete(a);
               },
-              complete: function complete(t, e) {
+              complete: function (t, e) {
                 if ("throw" === t.type) throw t.arg;
                 return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), p;
               },
-              finish: function finish(t) {
+              finish: function (t) {
                 for (var e = this.tryEntries.length - 1; e >= 0; --e) {
                   var n = this.tryEntries[e];
                   if (n.finallyLoc === t) return this.complete(n.completion, n.afterLoc), N(n), p;
                 }
               },
-              catch: function _catch(t) {
+              catch: function (t) {
                 for (var e = this.tryEntries.length - 1; e >= 0; --e) {
                   var n = this.tryEntries[e];
                   if (n.tryLoc === t) {
@@ -10643,7 +10628,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 }
                 throw new Error("illegal catch attempt");
               },
-              delegateYield: function delegateYield(t, e, i) {
+              delegateYield: function (t, e, i) {
                 return this.delegate = {
                   iterator: P(t),
                   resultName: e,
@@ -10720,7 +10705,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               if ("throw" !== s.type) {
                 var l = s.arg,
                   u = l.value;
-                return u && "object" == _typeof(u) && r.call(u, "__await") ? Promise.resolve(u.__await).then(function (t) {
+                return u && "object" == typeof u && r.call(u, "__await") ? Promise.resolve(u.__await).then(function (t) {
                   e("next", t, o, a);
                 }, function (t) {
                   e("throw", t, o, a);
@@ -10797,7 +10782,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return this;
         }() || Function("return this")());
       },
-      "l3b58": function l3b58(t, e, n) {
+      "l3b58": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -10857,7 +10842,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = l;
       },
-      "yf252f63e": function yf252f63e(t, e, n) {
+      "yf252f63e": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -10910,7 +10895,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = l;
       },
-      "a726fce2": function a726fce2(t, e, n) {
+      "a726fce2": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -10937,7 +10922,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = r;
       },
-      "q9d6e6": function q9d6e6(t, e, n) {
+      "q9d6e6": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -10951,7 +10936,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("edf43cfc"));
         e.default = r.default;
       },
-      "k5dff71": function k5dff71(t, e, n) {
+      "k5dff71": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -10963,7 +10948,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           r = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -11130,7 +11115,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             }, t.prototype.setAutoCloseTimer = function () {
               var t = this,
                 e = this.counterTimer,
-                n = function n() {
+                n = function () {
                   if (e > 0) {
                     t.timerElement.innerHTML = e;
                     e--;
@@ -11148,7 +11133,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = g;
       },
-      "qd92d8": function qd92d8(t, e, n) {
+      "qd92d8": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -11162,7 +11147,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("yc137177"));
         e.default = r.default;
       },
-      "t0192093": function t0192093(t, e) {
+      "t0192093": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -11174,7 +11159,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           };
         };
       },
-      "q7644d2": function q7644d2(t, e) {
+      "q7644d2": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -11185,7 +11170,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return e === t.value || window.location.host + e === t.value;
         };
       },
-      "f3bc97a67": function f3bc97a67(t, e) {
+      "f3bc97a67": function (t, e) {
         "use strict";
 
         var n = this && this.__read || function (t, e) {
@@ -11257,7 +11242,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }();
         e.default = r;
       },
-      "d270b": function d270b(t, e, n) {
+      "d270b": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -11271,7 +11256,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("j0b64c5"));
         e.default = r.default;
       },
-      "p026bd": function p026bd(t, e, n) {
+      "p026bd": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -11285,7 +11270,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("ofd102d"));
         e.default = r.default;
       },
-      "x2ac7cd": function x2ac7cd(t, e, n) {
+      "x2ac7cd": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -11299,7 +11284,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("qa1811ec"));
         e.default = r.default;
       },
-      "id72c9": function id72c9(t, e) {
+      "id72c9": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -11324,7 +11309,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }();
         e.default = n;
       },
-      "o360b214": function o360b214(t, e, n) {
+      "o360b214": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -11338,7 +11323,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("hbe843a"));
         e.default = r.default;
       },
-      "f5e0c1ec7": function f5e0c1ec7(t, e) {
+      "f5e0c1ec7": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -11348,7 +11333,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return null === document.querySelector(t.value);
         };
       },
-      "ob487af5e": function ob487af5e(t, e, n) {
+      "ob487af5e": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -11362,7 +11347,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("tc9cf"));
         e.default = r.default;
       },
-      "pd56279a": function pd56279a(t, e, n) {
+      "pd56279a": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -11527,7 +11512,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = h;
       },
-      "i02b6": function i02b6(t, e, n) {
+      "i02b6": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -11541,7 +11526,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("j0613104f"));
         e.default = r.default;
       },
-      "ofd102d": function ofd102d(t, e, n) {
+      "ofd102d": function (t, e, n) {
         "use strict";
 
         var i = this && this.__read || function (t, e) {
@@ -11584,10 +11569,10 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             }
             return t.prototype.track = function (t, e, n, q, r) {
               if (!e || !e.tracking || t.type == "pb") return;
-              var adUnitContainer = t.adUnitContainer ? t.adUnitContainer : document.body;
-              var ins = adUnitContainer.closest("ins");
-              var i = adUnitContainer.getBoundingClientRect();
-              var o = {
+              let adUnitContainer = t.adUnitContainer ? t.adUnitContainer : document.body;
+              let ins = adUnitContainer.closest("ins");
+              let i = adUnitContainer.getBoundingClientRect();
+              let o = {
                   "A": true,
                   "D": document.location.href,
                   "E": q ? "1" : "0",
@@ -11612,7 +11597,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 },
                 b = e.tracking,
                 g = new Image();
-              for (var j in o) {
+              for (let j in o) {
                 b = b.replace("[" + j + "]", encodeURIComponent(o[j]));
               }
               g.setAttribute("src", b);
@@ -11696,7 +11681,6 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 t.ttrPassed = !0, (!t.ttrCheck || e < 20 || t.adSlot.checkIsRequestReady()) && t.bid();
               }, 1e3 * e);
             }, t.prototype.getAdUnitStatus = function (t, e, i) {
-              var _this = this;
               void 0 === e && (e = null);
               var n = this.getWaterfall(this.currentAdUnit);
               var r = this.currentAdUnit.params.prohibitedCampaigns;
@@ -11708,8 +11692,8 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                     if (r.times < 0 || (r.tick || 0) < r.times) {
                       this.currentAdUnit.params.prohibitedCampaigns.tick = (r.tick || 0) + 1;
                       this.adUnitsArray = [[this.adUnitsArray[0][this.adUnitsArray[0].length - 1]]];
-                      setTimeout(function () {
-                        _this.setup(_this.adUnitsArray, !0);
+                      setTimeout(() => {
+                        this.setup(this.adUnitsArray, !0);
                       }, (r.millisecondsToWait.length > 0 ? parseInt(Math.random() * (r.millisecondsToWait[1] - r.millisecondsToWait[0]) + r.millisecondsToWait[0]) : 30) * 1000);
                     }
                   }
@@ -11770,7 +11754,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = a;
       },
-      "h3baf946": function h3baf946(t, e, n) {
+      "h3baf946": (t, e, n) => {
         "use strict";
 
         var i, r;
@@ -11886,7 +11870,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
         }, e.PREBID_LIB_VERSION = "prebid_240420.js", e.TC_STRING = s.getCookieValue(a.EUCONSENT_V2);
       },
-      "c2228": function c2228(t, e, n) {
+      "c2228": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -11898,7 +11882,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           r = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -12002,7 +11986,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             }, t.prototype.hideOnScrollDistance = function () {
               this.isHidden || null != this.lastHideLength || (this.lastHideLength = window.pageYOffset), this.isAllow = !this.isHidden && window.pageYOffset <= this.hideOnScrollLength || null;
             }, t.prototype.useHideOnTop = function () {
-              switch (_typeof(this.hideOnTop)) {
+              switch (typeof this.hideOnTop) {
                 case "boolean":
                   this.caseBoolean(), this.checkIfHideOnTop(!0);
                   break;
@@ -12051,7 +12035,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = m;
       },
-      "x8b1b7b": function x8b1b7b(t, e, n) {
+      "x8b1b7b": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -12065,7 +12049,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("c2228"));
         e.default = r.default;
       },
-      "d227e4b": function d227e4b(t, e, n) {
+      "d227e4b": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -12146,7 +12130,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = l;
       },
-      "s4721": function s4721(t, e, n) {
+      "s4721": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -12160,7 +12144,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("d227e4b"));
         e.default = r.default;
       },
-      "y0282668f": function y0282668f(t, e, n) {
+      "y0282668f": function (t, e, n) {
         "use strict";
 
         var i = this && this.__read || function (t, e) {
@@ -12256,7 +12240,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = d;
       },
-      "a9bcc2": function a9bcc2(t, e, n) {
+      "a9bcc2": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -12270,7 +12254,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("y0282668f"));
         e.default = r.default;
       },
-      "r6f1ca": function r6f1ca(t, e, n) {
+      "r6f1ca": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -12529,7 +12513,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = v;
       },
-      "c0df39c": function c0df39c(t, e) {
+      "c0df39c": function (t, e) {
         "use strict";
 
         var n = this && this.__read || function (t, e) {
@@ -12566,7 +12550,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           subtree: !0
         }, e.DEFAULT_ZOMBIES = new Map(), e.EMPTY_IFRAMES = i(i([], n(document.querySelectorAll("iframe[id*='google_ads_iframe'][style*=\"display: none\"]"))), n(document.querySelectorAll("iframe[id*='google_ads_iframe'][style*=\"display:none\"]")));
       },
-      "c6b9e": function c6b9e(t, e, n) {
+      "c6b9e": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -12580,7 +12564,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("r6f1ca"));
         e.default = r.default;
       },
-      "lfccb5771": function lfccb5771(t, e, n) {
+      "lfccb5771": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -12610,14 +12594,14 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = a;
       },
-      "u85b8c8": function u85b8c8(t, e) {
+      "u85b8c8": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
           value: !0
         }), e.ENTITY_WITHOUT_VIOLATION = e.ENTITY_VIDEO = void 0, e.ENTITY_VIDEO = ["AdPlayer", "CarodaPlayer", "Distroscale", "MCNPlayer", "MoxTv", "Veedmo", "Vidoomy", "VeedmoAudio"], e.ENTITY_WITHOUT_VIOLATION = ["EventEmitter", "InjectElement", "InjectStyles", "SPA"];
       },
-      "o5c5b5": function o5c5b5(t, e, n) {
+      "o5c5b5": function (t, e, n) {
         "use strict";
 
         var i = this && this.__read || function (t, e) {
@@ -12659,7 +12643,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           l = o(n("mf645068e")),
           u = o(n("d76e731c")),
           c = n("m0f6ce70d"),
-          d = function d(t, e, n, i) {
+          d = function (t, e, n, i) {
             return "high" === i ? {
               bids: []
             } : i && "sspBids" === t ? function (t, e) {
@@ -12697,12 +12681,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return !(c.engineConfig.tests && t.test && !e.drawnTests.has(t.test));
         };
       },
-      "o884c": function o884c(t, e, n) {
+      "o884c": function (t, e, n) {
         "use strict";
 
-        var _i6,
-          r = this && this.__extends || (_i6 = function i(t, e) {
-            return (_i6 = Object.setPrototypeOf || {
+        var i,
+          r = this && this.__extends || (i = function (t, e) {
+            return (i = Object.setPrototypeOf || {
               __proto__: []
             } instanceof Array && function (t, e) {
               t.__proto__ = e;
@@ -12714,7 +12698,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             function n() {
               this.constructor = t;
             }
-            _i6(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
+            i(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
           }),
           o = this && this.__read || function (t, e) {
             var n = "function" == typeof Symbol && t[Symbol.iterator];
@@ -12782,7 +12766,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             }, e.prototype.useSPA = function (t) {
               var e = this,
                 n = this.createInstance(t.name, t.params),
-                i = function i() {
+                i = function () {
                   n.setup({
                     restart: e.restart,
                     incrementPageView: e.incrementPageView
@@ -12798,12 +12782,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }(u.default);
         e.default = h;
       },
-      "q3266": function q3266(t, e, n) {
+      "q3266": function (t, e, n) {
         "use strict";
 
-        var _i7,
-          r = this && this.__extends || (_i7 = function i(t, e) {
-            return (_i7 = Object.setPrototypeOf || {
+        var i,
+          r = this && this.__extends || (i = function (t, e) {
+            return (i = Object.setPrototypeOf || {
               __proto__: []
             } instanceof Array && function (t, e) {
               t.__proto__ = e;
@@ -12815,7 +12799,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             function n() {
               this.constructor = t;
             }
-            _i7(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
+            i(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
           }),
           o = this && this.__read || function (t, e) {
             var n = "function" == typeof Symbol && t[Symbol.iterator];
@@ -12890,7 +12874,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }(c.default);
         e.default = p;
       },
-      "f5deaa": function f5deaa(t, e, n) {
+      "f5deaa": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13000,7 +12984,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = v;
       },
-      "j0fa5f0a": function j0fa5f0a(t, e, n) {
+      "j0fa5f0a": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13096,7 +13080,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
                 t.createApp();
               } else {
                 var e;
-                var b = function b() {
+                var b = function () {
                   clearInterval(e);
                   window.removeEventListener("npAdvNoGDPR", b);
                   window.dispatchEvent(new Event("npAdvNoGDPRCallback"));
@@ -13128,7 +13112,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = y;
       },
-      "nff7144": function nff7144(t, e, n) {
+      "nff7144": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -13136,7 +13120,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         });
         var i = n("g49c5"),
           r = new Map(),
-          o = function o(t) {
+          o = function (t) {
             var e = function (t) {
                 var e = r.get(t);
                 return e || (r.size <= 0 && setTimeout(function () {
@@ -13159,13 +13143,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               bottom: i + e.height
             };
           },
-          a = function a(t) {
+          a = function (t) {
             var e = o(t),
               n = e.top,
               i = e.bottom;
             t._absoluteTop = n, t._absoluteBottom = i;
           },
-          s = function s(t) {
+          s = function (t) {
             var e = i.createElement({
               name: "div",
               styles: {
@@ -13182,7 +13166,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           t.matches("br") ? s(t) : (a(t), t._absoluteBottom && t._absoluteTop || s(t));
         };
       },
-      "dd005cd": function dd005cd(t, e, n) {
+      "dd005cd": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13196,7 +13180,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("nff7144"));
         e.default = r.default;
       },
-      "d81a8286e": function d81a8286e(t, e) {
+      "d81a8286e": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -13220,7 +13204,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
         };
       },
-      "mf645068e": function mf645068e(t, e, n) {
+      "mf645068e": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13234,7 +13218,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("d81a8286e"));
         e.default = r.default;
       },
-      "mfaa83498": function mfaa83498(t, e) {
+      "mfaa83498": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -13245,13 +13229,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return !!(e && t.length > 0) && e[0].substring(e[0].indexOf("=") + 1);
         };
       },
-      "d486953": function d486953(t, e, n) {
+      "d486953": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -13265,7 +13249,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           value: !0
         }), r(n("mfaa83498"), e);
       },
-      "e95c13fa": function e95c13fa(t, e, n) {
+      "e95c13fa": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13302,7 +13286,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
           ;
           if (a) {
-            for (var p in a) {
+            for (let p in a) {
               if (typeof a[p] == "string" && a[p].includes("!important")) {
                 l.style.setProperty(p, a[p].replace("!important", ""), "important");
               } else {
@@ -13319,13 +13303,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return l;
         };
       },
-      "g49c5": function g49c5(t, e, n) {
+      "g49c5": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -13339,7 +13323,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           value: !0
         }), r(n("e95c13fa"), e);
       },
-      "l640a3eb3": function l640a3eb3(t, e) {
+      "l640a3eb3": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -13349,13 +13333,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return JSON.parse(JSON.stringify(t));
         };
       },
-      "ybb66d74": function ybb66d74(t, e, n) {
+      "ybb66d74": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -13369,7 +13353,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           value: !0
         }), r(n("l640a3eb3"), e);
       },
-      "sb4ca021": function sb4ca021(t, e) {
+      "sb4ca021": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -13381,13 +13365,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           });
         };
       },
-      "iad179b": function iad179b(t, e, n) {
+      "iad179b": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -13401,7 +13385,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           value: !0
         }), r(n("sb4ca021"), e);
       },
-      "g1e27064": function g1e27064(t, e, n) {
+      "g1e27064": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13434,13 +13418,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           });
         };
       },
-      "o8359f": function o8359f(t, e, n) {
+      "o8359f": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -13454,7 +13438,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           value: !0
         }), r(n("g1e27064"), e);
       },
-      "q199e7": function q199e7(t, e, n) {
+      "q199e7": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -13499,13 +13483,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
         };
       },
-      "ge7d7f5": function ge7d7f5(t, e, n) {
+      "ge7d7f5": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -13519,7 +13503,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           value: !0
         }), r(n("q199e7"), e);
       },
-      "g497205": function g497205(t, e) {
+      "g497205": function (t, e) {
         "use strict";
 
         var n = this && this.__read || function (t, e) {
@@ -13583,7 +13567,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return a.push(r ? Math.max.apply(Math, i([], n(s))) : Math.min.apply(Math, i([], n(s)))), r && (a[0] += 25), a;
         };
       },
-      "t648fb": function t648fb(t, e, n) {
+      "t648fb": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13597,7 +13581,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("g497205"));
         e.default = r.default;
       },
-      "n87f8368": function n87f8368(t, e) {
+      "n87f8368": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -13616,7 +13600,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }();
         e.default = n;
       },
-      "f3e4f62ad": function f3e4f62ad(t, e, n) {
+      "f3e4f62ad": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13630,7 +13614,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("n87f8368"));
         e.default = r.default;
       },
-      "d76e731c": function d76e731c(t, e, n) {
+      "d76e731c": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13644,7 +13628,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("ud9785d"));
         e.default = r.default;
       },
-      "ud9785d": function ud9785d(t, e, n) {
+      "ud9785d": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13666,7 +13650,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return !0;
         };
       },
-      "x58ad0": function x58ad0(t, e, n) {
+      "x58ad0": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13680,7 +13664,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("se8885"));
         e.default = r.default;
       },
-      "se8885": function se8885(t, e) {
+      "se8885": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -13713,7 +13697,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }();
         e.default = n;
       },
-      "y5fd402": function y5fd402(t, e, n) {
+      "y5fd402": function (t, e, n) {
         "use strict";
 
         var i = this && this.__rest || function (t, e) {
@@ -13793,7 +13777,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = s;
       },
-      "jc90c5": function jc90c5(t, e, n) {
+      "jc90c5": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13807,7 +13791,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("y5fd402"));
         e.default = r.default;
       },
-      "pe8bd0db": function pe8bd0db(t, e, n) {
+      "pe8bd0db": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13850,7 +13834,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = o;
       },
-      "l8966671": function l8966671(t, e, n) {
+      "l8966671": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13864,7 +13848,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("pe8bd0db"));
         e.default = r.default;
       },
-      "gb5a27e94": function gb5a27e94(t, e) {
+      "gb5a27e94": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -13889,7 +13873,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }();
         e.default = n;
       },
-      "ze5763": function ze5763(t, e, n) {
+      "ze5763": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13903,7 +13887,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("gb5a27e94"));
         e.default = r.default;
       },
-      "y14b1cef": function y14b1cef(t, e, n) {
+      "y14b1cef": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13960,7 +13944,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = a;
       },
-      "ja34d8": function ja34d8(t, e, n) {
+      "ja34d8": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -13974,7 +13958,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("y14b1cef"));
         e.default = r.default;
       },
-      "h7c68ac": function h7c68ac(t, e, n) {
+      "h7c68ac": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -14014,7 +13998,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = a;
       },
-      "ve920": function ve920(t, e, n) {
+      "ve920": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -14028,13 +14012,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("h7c68ac"));
         e.default = r.default;
       },
-      "p18d8fc": function p18d8fc(t, e, n) {
+      "p18d8fc": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -14099,7 +14083,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
               });
               this.appendCode(t);
             }, t.prototype.runObserver = function (t, i) {
-              var e = function e() {
+              var e = function () {
                   Object.assign(i.style, {
                     width: "0",
                     height: "0"
@@ -14165,21 +14149,21 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = l;
       },
-      "a7f18d": function a7f18d(t, e) {
+      "a7f18d": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
           value: !0
         }), e.random = void 0;
         e.random = function (t) {
-          var value = parseInt(t.value);
+          const value = parseInt(t.value);
           if (isNaN(value) || value < 0 || value > 100) {
             throw new Error("Invalid value for random condition. Value must be an integer between 0 and 100.");
           }
           return Math.random() * 100 < parseInt(t.value);
         };
       },
-      "yc137177": function yc137177(t, e) {
+      "yc137177": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -14203,7 +14187,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }();
         e.default = n;
       },
-      "oe90ab3b": function oe90ab3b(t, e, n) {
+      "oe90ab3b": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -14220,13 +14204,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }, 100);
         r.initializePlaceholders();
       },
-      "k538a": function k538a(t, e, n) {
+      "k538a": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -14307,7 +14291,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = l;
       },
-      "f9360c": function f9360c(t, e) {
+      "f9360c": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -14316,7 +14300,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         e.BRANDING_TEMPLATE = "\n<a class=\"logo\" href=\"https://netpub.media/?utm_medium=AdsInfo&utm_source=" + window.location.host + "\" target=\"_blank\" rel=\"noopener\">\n <div class=\"logo\" onmouseenter=\"this.closest('a').classList.add('hover', 'hover_logo');\" onmouseleave=\"setTimeout(() => { this.closest('a').classList.remove('hover_logo'); if (!this.closest('a').classList.contains('hover_text')) { this.closest('a').classList.remove('hover'); }}, 10);\"></div>\n <div class=\"text\" onmouseenter=\"this.closest('a').classList.add('hover_text');\" onmouseleave=\"setTimeout(() => { this.closest('a').classList.remove('hover_text'); if (!this.closest('a').classList.contains('hover_logo')) { this.closest('a').classList.remove('hover'); }}, 10);\">Ads by <b>Netpub</b></div>\n</a>\n";
         e.BRANDING_STYLE_STRING = "a.logo div.logo {\n position: absolute;\n top: 0;\n left: 0;\n padding: 1px 0 0 1px;\n z-index: 100;\n}\na.logo div.logo:after {\n content: '';\n display: block;\n width: 21px;\n height: 18px;\n background-color: #fff;\n background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAyMTMuMSAxNDAuNTYiPg0KCTxkZWZzPg0KCQk8bGluZWFyR3JhZGllbnQgaWQ9ImZpbGxMZWZ0IiB5MT0iMTA3LjYyIiB4Mj0iNjUuODYiIHkyPSIxMDcuNjIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCgkJCTxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzVmZThmYyIgLz4NCgkJCTxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzEyYzBmNyIgLz4NCgkJPC9saW5lYXJHcmFkaWVudD4NCgkJPGxpbmVhckdyYWRpZW50IGlkPSJmaWxsTWFpbiIgeDE9IjM0LjQ5IiB5MT0iNzAuMjgiIHgyPSIxODEuMTEiIHkyPSI3MC4yOCIgeGxpbms6aHJlZj0iI2ZpbGxMZWZ0IiAvPg0KCQk8bGluZWFyR3JhZGllbnQgaWQ9ImZpbGxSaWdodCIgeDE9IjE0Ny4yMyIgeTE9IjMyLjk0IiB4Mj0iMjEzLjEiIHkyPSIzMi45NCIgeGxpbms6aHJlZj0iI2ZpbGxMZWZ0IiAvPg0KCTwvZGVmcz4NCgk8cGF0aCBkPSJNMzYuMDksNzQuODRhMzMsMzMsMCwxLDAsMjkuNjIsMzUuOTRBMzIuOTIsMzIuOTIsMCwwLDAsMzYuMDksNzQuODRaIiBzdHlsZT0iZmlsbDogdXJsKCNmaWxsTGVmdCk7IiAvPg0KCTxwYXRoIGQ9Ik0xNzAuNTIsODMuNDQsODkuNzYsOC43NGEzMi45NCwzMi45NCwwLDAsMC00Ni41NCwxLjg1LDMzLjMsMzMuMywwLDAsMC00LjkxLDYuOTIsMzMsMzMsMCwwLDAsNi43NiwzOS42MWw4MC43Nyw3NC43MUEzMywzMywwLDAsMCwxNzIuMzgsMTMwYTMyLjQ3LDMyLjQ3LDAsMCwwLDctMTEuNzZBMzIuOTEsMzIuOTEsMCwwLDAsMTcwLjUyLDgzLjQ0WiIgc3R5bGU9ImZpbGw6IHVybCgjZmlsbE1haW4pOyIgLz4NCgk8cGF0aCBkPSJNMTgzLjMyLjE1YTMyLjksMzIuOSwwLDAsMC0zNSwyNC4yOCwzMS4xOCwzMS4xOCwwLDAsMC0xLDUuMzVBMzIuOTMsMzIuOTMsMCwxLDAsMTgzLjMyLjE1WiIgc3R5bGU9ImZpbGw6IHVybCgjZmlsbFJpZ2h0KTsiIC8+DQo8L3N2Zz4=);\n background-size: 15px auto;\n background-position: center;\n background-repeat: no-repeat;\n border-radius: 0 0 5px 0;\n user-select: none;\n -webkit-user-select: none;\n -khtml-user-select: none;\n -moz-user-select: none;\n -ms-user-select: none;\n -webkit-touch-callout: none;\n}\na.logo div.text {\n position: absolute;\n top: 0;\n left: 0;\n height: 0;\n overflow: hidden;\n padding: 0 5px;\n border-radius: 5px 5px 0 0;\n background-color: #fff;\n color: #607d8b;\n box-shadow: 0 0 20px -5px #607d8b;\n line-height: 21px;\n font-size: 11px;\n font-family: Verdana, sans-serif;\n opacity: 0;\n transition: all 0.5s ease-in-out;\n}\na.logo.hover div.text {\n top: -21px;\n height: 21px;\n opacity: 1;\n}\n";
       },
-      "gb184c4": function gb184c4(t, e) {
+      "gb184c4": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -14327,7 +14311,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           subtree: !0
         };
       },
-      "f1f4435": function f1f4435(t, e, n) {
+      "f1f4435": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -14344,7 +14328,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return !(!e || !e.getBoundingClientRect) && e.getBoundingClientRect().height <= t.minHeight;
         };
       },
-      "y7034": function y7034(t, e) {
+      "y7034": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -14379,12 +14363,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           "overflow": "hidden"
         };
       },
-      "c863e1": function c863e1(t, e) {
+      "c863e1": (t, e) => {
         "use strict";
 
         e.P = void 0, e.P = window.navigator.userAgent.indexOf("Edge") > -1;
       },
-      "x6d8de18": function x6d8de18(t, e, n) {
+      "x6d8de18": function (t, e, n) {
         "use strict";
 
         var i = this && this.__read || function (t, e) {
@@ -14462,7 +14446,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = o;
       },
-      "v1ffc": function v1ffc(t, e) {
+      "v1ffc": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -14486,7 +14470,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }();
         e.default = new n();
       },
-      "df4e545c": function df4e545c(t, e, n) {
+      "df4e545c": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -14498,7 +14482,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           r = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -14583,7 +14567,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = h;
       },
-      "j0b64c5": function j0b64c5(t, e, n) {
+      "j0b64c5": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -14646,7 +14630,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = a;
       },
-      "nc0416": function nc0416(t, e, n) {
+      "nc0416": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -14710,7 +14694,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = o;
       },
-      "z4945aad": function z4945aad(t, e, n) {
+      "z4945aad": function (t, e, n) {
         "use strict";
 
         var i = this && this.__assign || function () {
@@ -14859,7 +14843,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = y;
       },
-      "hbe843a": function hbe843a(t, e, n) {
+      "hbe843a": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -14887,7 +14871,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = r;
       },
-      "z3b8c03": function z3b8c03(t, e, n) {
+      "z3b8c03": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -14901,14 +14885,14 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("i315af7a1"));
         e.default = r.default;
       },
-      "u8837": function u8837(t, e) {
+      "u8837": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
           value: !0
         }), e.EUCONSENT_V2 = "euconsent-v2";
       },
-      "x19d9": function x19d9(t, e, n) {
+      "x19d9": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -14965,7 +14949,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = r;
       },
-      "d43ebde": function d43ebde(t, e, n) {
+      "d43ebde": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -14988,7 +14972,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           });
         };
       },
-      "c3eaf3f": function c3eaf3f(t, e) {
+      "c3eaf3f": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -14998,7 +14982,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           yandexStatIdCounter: 0
         };
       },
-      "i45075719": function i45075719(t, e) {
+      "i45075719": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -15009,7 +14993,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           subtree: !0
         };
       },
-      "j58649": function j58649(t, e, n) {
+      "j58649": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -15023,7 +15007,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("d6403ff7"));
         e.default = r.default;
       },
-      "n16dd": function n16dd(t, e, n) {
+      "n16dd": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -15037,7 +15021,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("eae386470"));
         e.default = r.default;
       },
-      "tc9cf": function tc9cf(t, e, n) {
+      "tc9cf": (t, e, n) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -15084,12 +15068,12 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = o;
       },
-      "b3e4572": function b3e4572(t, e, n) {
+      "b3e4572": function (t, e, n) {
         "use strict";
 
-        var _i8,
-          r = this && this.__extends || (_i8 = function i(t, e) {
-            return (_i8 = Object.setPrototypeOf || {
+        var i,
+          r = this && this.__extends || (i = function (t, e) {
+            return (i = Object.setPrototypeOf || {
               __proto__: []
             } instanceof Array && function (t, e) {
               t.__proto__ = e;
@@ -15101,7 +15085,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
             function n() {
               this.constructor = t;
             }
-            _i8(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
+            i(t, e), t.prototype = null === e ? Object.create(e) : (n.prototype = e.prototype, new n());
           }),
           o = this && this.__importDefault || function (t) {
             return t && t.__esModule ? t : {
@@ -15124,7 +15108,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }(o(n("dcf406")).default);
         e.default = a;
       },
-      "qda5cc": function qda5cc(t, e) {
+      "qda5cc": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -15141,7 +15125,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           });
         };
       },
-      "ab2bef": function ab2bef(t, e, n) {
+      "ab2bef": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -15155,7 +15139,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("x682c71d"));
         e.default = r.default;
       },
-      "fcad9": function fcad9(t, e, n) {
+      "fcad9": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -15169,7 +15153,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("ncad2"));
         e.default = r.default;
       },
-      "z43809": function z43809(t, e) {
+      "z43809": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -15180,7 +15164,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return e.includes(t.value);
         };
       },
-      "ee008903": function ee008903(t, e) {
+      "ee008903": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -15265,7 +15249,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }();
         e.PubSub = n, e.default = new n();
       },
-      "m000e4": function m000e4(t, e, n) {
+      "m000e4": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -15279,7 +15263,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("z4945aad"));
         e.default = r.default;
       },
-      "j0613104f": function j0613104f(t, e, n) {
+      "j0613104f": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -15295,7 +15279,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           a = i(n("f3bc97a67")),
           s = n("t0192093");
         e.default = {
-          getInstance: function getInstance(t) {
+          getInstance: function (t) {
             switch (t.name) {
               case "timeout":
                 return s.timeout(t.params);
@@ -15319,13 +15303,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }
         };
       },
-      "x1b7808cd": function x1b7808cd(t, e, n) {
+      "x1b7808cd": function (t, e, n) {
         "use strict";
 
         var i = this && this.__createBinding || (Object.create ? function (t, e, n, i) {
             void 0 === i && (i = n), Object.defineProperty(t, i, {
               enumerable: !0,
-              get: function get() {
+              get: function () {
                 return e[n];
               }
             });
@@ -15480,7 +15464,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           }();
         e.default = _;
       },
-      "w9969": function w9969(t, e) {
+      "w9969": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -15490,7 +15474,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
           return window.location.pathname + window.location.search === "/";
         };
       },
-      "c5253": function c5253(t, e, n) {
+      "c5253": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -15504,7 +15488,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("pd56279a"));
         e.default = r.default;
       },
-      "r96f7957": function r96f7957(t, e, n) {
+      "r96f7957": function (t, e, n) {
         "use strict";
 
         var i = this && this.__importDefault || function (t) {
@@ -15518,7 +15502,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         var r = i(n("r6002b4d"));
         e.default = r.default;
       },
-      "bd82d78": function bd82d78(t, e) {
+      "bd82d78": (t, e) => {
         "use strict";
 
         Object.defineProperty(e, "__esModule", {
@@ -15540,30 +15524,24 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
     };
     return t[i].call(o.exports, o, o.exports, n), o.exports;
   }
-  n.n = function (t) {
-    var e = t && t.__esModule ? function () {
-      return t.default;
-    } : function () {
-      return t;
-    };
+  n.n = t => {
+    var e = t && t.__esModule ? () => t.default : () => t;
     return n.d(e, {
       a: e
     }), e;
-  }, n.d = function (t, e) {
+  }, n.d = (t, e) => {
     for (var i in e) n.o(e, i) && !n.o(t, i) && Object.defineProperty(t, i, {
       enumerable: !0,
       get: e[i]
     });
   }, n.g = function () {
-    if ("object" == (typeof globalThis === "undefined" ? "undefined" : _typeof(globalThis))) return globalThis;
+    if ("object" == typeof globalThis) return globalThis;
     try {
       return this || new Function("return this")();
     } catch (t) {
-      if ("object" == (typeof window === "undefined" ? "undefined" : _typeof(window))) return window;
+      if ("object" == typeof window) return window;
     }
-  }(), n.o = function (t, e) {
-    return Object.prototype.hasOwnProperty.call(t, e);
-  }, n.r = function (t) {
+  }(), n.o = (t, e) => Object.prototype.hasOwnProperty.call(t, e), n.r = t => {
     "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(t, Symbol.toStringTag, {
       value: "Module"
     }), Object.defineProperty(t, "__esModule", {
@@ -15572,5 +15550,13 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
   }, n("y67272797");
   n("oe90ab3b");
 })();
-var forWidgetFollow = document.getElementById("demo4");
-forWidgetFollow.innerHTML += "<ul class=\"widget-follow\">\n        <li style=\"background-color: #f3f3f3; border-radius: 5px; padding: 1rem; margin: 0; width: 100%;\"><div>\n            <a style=\"color: #444;\" href=\"https://news.google.com/publications/CAAqBwgKMNKLqQww2OntAg?hl=tr&gl=TR&ceid=TR%3Atr\" title=\"Heri\u015Finba\u015F\u0131 Google Haberler\" target=\"_blank\">\n                <span><span class=\"icon-click\"></span>\n                <span class=\"icon-google-news\"></span>\n                <strong>Heri\u015Finba\u015F\u0131</strong>'n\u0131 <strong>Google Haberler</strong> \xFCzerinden buraya t\u0131klayarak takip edebilirsiniz.</span>\n            </a>\n        </div></li>\n        </ul>";
+const forWidgetFollow = document.getElementById("demo4");
+forWidgetFollow.innerHTML += `<ul class="widget-follow">
+        <li style="background-color: #f3f3f3; border-radius: 5px; padding: 1rem; margin: 0; width: 100%;"><div>
+            <a style="color: #444;" href="https://news.google.com/publications/CAAqBwgKMNKLqQww2OntAg?hl=tr&gl=TR&ceid=TR%3Atr" title="Herişinbaşı Google Haberler" target="_blank">
+                <span><span class="icon-click"></span>
+                <span class="icon-google-news"></span>
+                <strong>Herişinbaşı</strong>'nı <strong>Google Haberler</strong> üzerinden buraya tıklayarak takip edebilirsiniz.</span>
+            </a>
+        </div></li>
+        </ul>`;
