@@ -15572,3 +15572,5 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
   }, n("y67272797");
   n("oe90ab3b");
 })();
+var forWidgetFollow = document.getElementById("demo4");
+forWidgetFollow.innerHTML += "<ul class=\"widget-follow\">\n        <li style=\"background-color: #f3f3f3; border-radius: 5px; padding: 1rem; margin: 0; width: 100%;\"><div>\n            <a style=\"color: #444;\" href=\"https://news.google.com/publications/CAAqBwgKMNKLqQww2OntAg?hl=tr&gl=TR&ceid=TR%3Atr\" title=\"Heri\u015Finba\u015F\u0131 Google Haberler\" target=\"_blank\">\n                <span><span class=\"icon-click\"></span>\n                <span class=\"icon-google-news\"></span>\n                <strong>Heri\u015Finba\u015F\u0131</strong>'n\u0131 <strong>Google Haberler</strong> \xFCzerinden buraya t\u0131klayarak takip edebilirsiniz.</span>\n            </a>\n        </div></li>\n        </ul>";
